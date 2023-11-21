@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notas>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="2.00">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe versao="2.00" Id="NFe35130309339936000205550030008469231382917898">
+            <ide>
+                <cUF>35</cUF>
+                <cNF>38291789</cNF>
+                <natOp>VENDA DE MERCADORIAS</natOp>
+                <indPag>0</indPag>
+                <mod>55</mod>
+                <serie>3</serie>
+                <nNF>846923</nNF>
+                <dEmi>2013-03-20</dEmi>
+                <tpNF>1</tpNF>
+                <cMunFG>3505708</cMunFG>
+                <tpImp>1</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>8</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <procEmi>0</procEmi>
+                <verProc>ABACOS V50B0070</verProc>
+            </ide>
+            <emit>
+                <CNPJ>09339936000205</CNPJ>
+                <xNome>NS2.Com Internet SA</xNome>
+                <xFant>NETSHOES</xFant>
+                <enderEmit>
+                    <xLgr>AV ARUANA</xLgr>
+                    <nro>854</nro>
+                    <xBairro>TAMBORE</xBairro>
+                    <cMun>3505708</cMun>
+                    <xMun>BARUERI</xMun>
+                    <UF>SP</UF>
+                    <CEP>06460908</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>BRASIL</xPais>
+                </enderEmit>
+                <IE>206257690116</IE>
+                <CRT>3</CRT>
+            </emit>
+            <dest>
+                <CPF>12345678900</CPF>
+                <xNome>GIOVANI LIBRELOTTO</xNome>
+                <enderDest>
+                    <xLgr>AV RORAIMA</xLgr>
+                    <nro>1000</nro>
+                    <xCpl>SALA 387</xCpl>
+                    <xBairro>CAMOBI</xBairro>
+                    <cMun>4316907</cMun>
+                    <xMun>SANTA MARIA</xMun>
+                    <UF>RS</UF>
+                    <CEP>97010041</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                    <fone>5591234567</fone>
+                </enderDest>
+                <IE>ISENTO</IE>
+                <email>librelotto@mail.com</email>
+            </dest>
+            <det nItem="1">
+                <prod>
+                    <cProd>025-1220-318-40</cProd>
+                    <cEAN>4051411545402</cEAN>
+                    <xProd>Chuteira Puma Esito Finale IT</xProd>
+                    <NCM>64029990</NCM>
+                    <CFOP>6108</CFOP>
+                    <uCom>PAR</uCom>
+                    <qCom>1</qCom>
+                    <vUnCom>94.91</vUnCom>
+                    <vProd>94.91</vProd>
+                    <cEANTrib>4051411545402</cEANTrib>
+                    <uTrib>PAR</uTrib>
+                    <qTrib>1</qTrib>
+                    <vUnTrib>94.91</vUnTrib>
+                    <indTot>1</indTot>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS00>
+                            <orig>2</orig>
+                            <CST>00</CST>
+                            <modBC>3</modBC>
+                            <vBC>94.91</vBC>
+                            <pICMS>18.00</pICMS>
+                            <vICMS>17.08</vICMS>
+                        </ICMS00>
+                    </ICMS>
+                    <IPI>
+                        <cEnq>999</cEnq>
+                        <IPINT>
+                            <CST>53</CST>
+                        </IPINT>
+                    </IPI>
+                    <PIS>
+                        <PISAliq>
+                            <CST>01</CST>
+                            <vBC>94.91</vBC>
+                            <pPIS>1.65</pPIS>
+                            <vPIS>1.57</vPIS>
+                        </PISAliq>
+                    </PIS>
+                    <COFINS>
+                        <COFINSAliq>
+                            <CST>01</CST>
+                            <vBC>94.91</vBC>
+                            <pCOFINS>7.60</pCOFINS>
+                            <vCOFINS>7.21</vCOFINS>
+                        </COFINSAliq>
+                    </COFINS>
+                </imposto>
+                <infAdProd>EAN 4051411545402</infAdProd>
+            </det>
+            <total>
+                <ICMSTot>
+                    <vBC>94.91</vBC>
+                    <vICMS>17.08</vICMS>
+                    <vBCST>0.00</vBCST>
+                    <vST>0.00</vST>
+                    <vProd>94.91</vProd>
+                    <vFrete>0.00</vFrete>
+                    <vSeg>0.00</vSeg>
+                    <vDesc>0.00</vDesc>
+                    <vII>0.00</vII>
+                    <vIPI>0.00</vIPI>
+                    <vPIS>1.57</vPIS>
+                    <vCOFINS>7.21</vCOFINS>
+                    <vOutro>0.00</vOutro>
+                    <vNF>94.91</vNF>
+                </ICMSTot>
+            </total>
+            <transp>
+                <modFrete>0</modFrete>
+                <transporta>
+                    <xNome>EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS</xNome>
+                    <IE/>
+                </transporta>
+                <vol>
+                    <qVol>1</qVol>
+                    <pesoL>0.900</pesoL>
+                    <pesoB>0.900</pesoB>
+                </vol>
+            </transp>
+            <infAdic>
+                <infCpl>Pedido 10161609426 Pedido interno 24205819 Condicoes de Pagto BOLETO
+                    ANTECIPADO = 94,91</infCpl>
+            </infAdic>
+        </infNFe>
+        <Signature>
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+                <Reference URI="#NFe35130309339936000205550030008469231382917898">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                        <Transform Algorithm="http://www.w3.org	/TR/2001/REC-xml-c14n-20010315"/>
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                    <DigestValue>Khhl3Fgh30yT1OL5Y1bBiTEIPxU=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>fH0tPgKJmOOueVjigRVG7sDk3gDnYz89enY4CkcG6l7eEfe2+YsD3Hu+5OiPElFrBt4mw5+eNk4WHU+ju/XYMheOwZNcTHelZp7s1OFcv0aTNCZKCWgLKOQQNGQgWT5t6H78QPmGe9Vho1cczxwBln+VmaT8B5NI8kNqgFMvo8GYguKBZk2ICyyDggOm5vEiGEZCB7m3Dci8H+Mmho3IfG4wbshJdBpESxJKfsP7CJizYO9aQTLa0eDi9A+8FOWi6v8prpoeWpGnq/ZGsQiQnGmw/yFe8OVcSoTXx1d5rbNDcPLS3W2i+SNn9g1zI5HucBuJ4kIpaJpXxQoAfeH+GQ==</SignatureValue>
+            <KeyInfo>
+                <X509Data>
+                    <X509Certificate>MIIIPjCCBiagAwIBAgIQZFS8UWZ/4nqslJtmQDCi4jANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQGEwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDEtMCsGA1UECxMkQ2VydGlzaWduIENlcnRpZmljYWRvcmEgRGlnaXRhbCBTLkEuMSEwHwYDVQQDExhBQyBDZXJ0aXNpZ24gTXVsdGlwbGEgRzUwHhcNMTIwOTEzMDAwMDAwWhcNMTMwOTEyMjM1OTU5WjCB1jELMAkGA1UEBhMCQlIxEzARBgNVBAoUCklDUC1CcmFzaWwxODA2BgNVBAsUL0F1dGVudGljYWRvIHBvciBDZXJ0aXNpZ24gQ2VydGlmaWNhZG9yYSBEaWdpdGFsMRswGQYDVQQLFBJBc3NpbmF0dXJhIFRpcG8gQTExFTATBgNVBAsUDElEIC0gMzU5OTY2NzEdMBsGA1UEAxMUTlMyIENPTSBJTlRFUk5FVCBTIEExJTAjBgkqhkiG9w0BCQEWFmZpc2NhbEBuZXRzaG9lcy5jb20uYnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCbi5U3E1ot6/g+Q6P0qzC10/duAwL+iJVSsqBrMj26VvvMkUzqNH2nYaiXbpyNsCB+VLlWM4wd3PM8JdpYr3ZvhjF97NXJu04A76/zExO45nSFXQr0H7xW9TJSwZPrZo0nzepg01gNOxdLpie5xdOD+e5PrK3zuc+2oFM5X4zSCGKr6iLu08+01Y6RWxl1KXZfvV9UBpqWlkpyNQiliu+ZyvfIzUVEcz7pATj5K18KHhAF+XLx6/WGwvvY+yQbWKQvoRdBFbuXRy46TBAvIR3+UQonCNfJfqscX70mX4rm3DWnOpk65a5J2eQXoBhSmu5ycCxLiSKmh/jMiTQ7cnF9AgMBAAGjggNnMIIDYzCBrQYDVR0RBIGlMIGioDgGBWBMAQMEoC8ELTIwMDExOTc0MTY4NzY0NDE4NzMwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMKAaBgVgTAEDAqARBA9NQVJDSU8gS1VNUlVJQU6gGQYFYEwBAwOgEAQOMDkzMzk5MzYwMDAxMTagFwYFYEwBAwegDgQMMDAwMDAwMDAwMDAwgRZmaXNjYWxAbmV0c2hvZXMuY29tLmJyMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUnVDPvf8kyq+xM+sX4kJ6jmkqjlMwDgYDVR0PAQH/BAQDAgXgMIGJBgNVHSAEgYEwfzB9BgZgTAECAQswczBxBggrBgEFBQcCARZlaHR0cDovL2ljcC1icmFzaWwuY2VydGlzaWduLmNvbS5ici9yZXBvc2l0b3Jpby9kcGMvQUNfQ2VydGlzaWduX011bHRpcGxhL0RQQ19BQ19DZXJ0aVNpZ25NdWx0aXBsYS5wZGYwggElBgNVHR8EggEcMIIBGDBcoFqgWIZWaHR0cDovL2ljcC1icmFzaWwuY2VydGlzaWduLmNvbS5ici9yZXBvc2l0b3Jpby9sY3IvQUNDZXJ0aXNpZ25NdWx0aXBsYUc1L0xhdGVzdENSTC5jcmwwW6BZoFeGVWh0dHA6Ly9pY3AtYnJhc2lsLm91dHJhbGNyLmNvbS5ici9yZXBvc2l0b3Jpby9sY3IvQUNDZXJ0aXNpZ25NdWx0aXBsYUc1L0xhdGVzdENSTC5jcmwwW6BZoFeGVWh0dHA6Ly9yZXBvc2l0b3Jpby5pY3BicmFzaWwuZ292LmJyL2xjci9DZXJ0aXNpZ24vQUNDZXJ0aXNpZ25NdWx0aXBsYUc1L0xhdGVzdENSTC5jcmwwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIGgBggrBgEFBQcBAQSBkzCBkDBkBggrBgEFBQcwAoZYaHR0cDovL2ljcC1icmFzaWwuY2VydGlzaWduLmNvbS5ici9yZXBvc2l0b3Jpby9jZXJ0aWZpY2Fkb3MvQUNfQ2VydGlzaWduX011bHRpcGxhX0c1LnA3YzAoBggrBgEFBQcwAYYcaHR0cDovL29jc3AuY2VydGlzaWduLmNvbS5icjANBgkqhkiG9w0BAQsFAAOCAgEAn0EicvbfA1yG+CbOjWp2EvRJXt0QmFtIAzit8RiFZfjlG4ad/P7K2SLP04D1no3+2WyiVogdHTuKJVnCTR5yKL2mEeLGUD3Vvc5cpIQg+Pce7oWYk//HJXLFmEg4zSsu0xHkJUuR1/FyZkzTTRCniaQrKEZJHwnHhcGtkrl3xnEQQt0l0U7pOctdc/LxEjarJaDdYwFqG7y7/Bzs92K6/M9BVtAlQpnsCOuCaN6qqWRD6CiH1bZMGs1Xtbo8KwrCBEaR5KpZKfoew/1uW8Tz9StCBCsB7MgY75v+PLy0jGv4qYsIYPkdzQWtQO5y11xJyKz8nmPZm/pZGInRrdmKvTOjiKYYCGcAt2wps4oM2W2zu7b5koiWRV6Q0/S9w1R/TOoFLBHGIsc/k4n7XpzMqx1EyGZQY3GPFXr6LKCtBMZLpoAiqhMHk7x7Sh4/axt+3Mo6or7KJyBpo4hozB45bD277v4O99vSHtSiU4Cz3EattDlW8Us0HG5dwmNIklmbQ+7n9ycp6XekfHe/lT2oBL8W1xPC2svsozDEV++h4b3/GqBDnV6FfmJRn9QVkhHsGYawF1u3U68vobzfal/4Qz/uGP2mF7fHBwHS5XVl3GCoVCIHcUM5M79nohzJePVOdGKImAUZJ0qPi+cdgKk4Y5oaE+WmccNgusrFWVbgH3M=</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </Signature>
+    </NFe>
+    <protNFe versao="2.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infProt>
+            <tpAmb>1</tpAmb>
+            <verAplic>SP_NFE_PL_006q</verAplic>
+            <chNFe>35130309339936000205550030008469231382917898</chNFe>
+            <dhRecbto>2013-03-20T09:39:04</dhRecbto>
+            <nProt>135130163038192</nProt>
+            <digVal>Khhl3Fgh30yT1OL5Y1bBiTEIPxU=</digVal>
+            <cStat>100</cStat>
+            <xMotivo>Autorizado o uso da NF-e</xMotivo>
+        </infProt>
+    </protNFe>
+</nfeProc>
+
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="2.00">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe Id="NFe43121143708379008348550010000175461000000014" versao="2.00">
+            <ide>
+                <cUF>43</cUF>
+                <cNF>00000001</cNF>
+                <natOp>REMESSA VINCUL.ECF VN</natOp>
+                <indPag>0</indPag>
+                <mod>55</mod>
+                <serie>1</serie>
+                <nNF>17546</nNF>
+                <dEmi>2012-11-23</dEmi>
+                <tpNF>1</tpNF>
+                <cMunFG>4314902</cMunFG>
+                <tpImp>2</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>4</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <procEmi>0</procEmi>
+                <verProc>NeoGrid NFe 1.9.0.1</verProc>
+            </ide>
+            <emit>
+                <CNPJ>43708379008348</CNPJ>
+                <xNome>FAST SHOP S.A.</xNome>
+                <xFant>FAST SHOP S.A.</xFant>
+                <enderEmit>
+                    <xLgr>JOAO WALLIG</xLgr>
+                    <nro>1800</nro>
+                    <xCpl>210 PISO NP</xCpl>
+                    <xBairro>PASSO D.AREIA</xBairro>
+                    <cMun>4314902</cMun>
+                    <xMun>PORTO ALEGRE</xMun>
+                    <UF>RS</UF>
+                    <CEP>91349900</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                    <fone>1132323200</fone>
+                </enderEmit>
+                <IE>0963395009</IE>
+                <CRT>3</CRT>
+            </emit>
+            <dest>
+                <CPF>12345678900</CPF>
+                <xNome>GIOVANI LIBRELOTTO</xNome>
+                <enderDest>
+                    <xLgr>AV RORAIMA</xLgr>
+                    <nro>1000</nro>
+                    <xCpl>SALA 387</xCpl>
+                    <xBairro>CAMOBI</xBairro>
+                    <cMun>4316907</cMun>
+                    <xMun>SANTA MARIA</xMun>
+                    <UF>RS</UF>
+                    <CEP>97010041</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                    <fone>5591234567</fone>
+                </enderDest>
+                <IE>ISENTO</IE>
+                <email>librelotto@mail.com</email>
+            </dest>
+            <entrega>
+                <CPF>12345678900</CPF>
+                <xLgr>AV RORAIMA</xLgr>
+                <nro>1000</nro>
+                <xCpl>SALA 387</xCpl>
+                <xBairro>CAMOBI</xBairro>
+                <cMun>4316907</cMun>
+                <xMun>SANTA MARIA</xMun>
+                <UF>RS</UF>
+            </entrega>
+            <det nItem="1">
+                <prod>
+                    <cProd>AEMD387BZA</cProd>
+                    <cEAN>0885909545759</cEAN>
+                    <xProd>MAC MINI COREI5 4GB500 | 0885909545759| Rua: A</xProd>
+                    <NCM>84715010</NCM>
+                    <CFOP>5929</CFOP>
+                    <uCom>PC</uCom>
+                    <qCom>1.0000</qCom>
+                    <vUnCom>2269.0000</vUnCom>
+                    <vProd>2269.00</vProd>
+                    <cEANTrib>0885909545759</cEANTrib>
+                    <uTrib>PC</uTrib>
+                    <qTrib>1.0000</qTrib>
+                    <vUnTrib>2269.0000</vUnTrib>
+                    <indTot>1</indTot>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS60>
+                            <orig>2</orig>
+                            <CST>60</CST>
+                            <vBCSTRet>2229.90</vBCSTRet>
+                            <vICMSSTRet>76.91</vICMSSTRet>
+                        </ICMS60>
+                    </ICMS>
+                    <PIS>
+                        <PISNT>
+                            <CST>08</CST>
+                        </PISNT>
+                    </PIS>
+                    <COFINS>
+                        <COFINSNT>
+                            <CST>08</CST>
+                        </COFINSNT>
+                    </COFINS>
+                </imposto>
+            </det>
+            <total>
+                <ICMSTot>
+                    <vBC>0.00</vBC>
+                    <vICMS>0.00</vICMS>
+                    <vBCST>0.00</vBCST>
+                    <vST>0.00</vST>
+                    <vProd>2269.00</vProd>
+                    <vFrete>0.00</vFrete>
+                    <vSeg>0.00</vSeg>
+                    <vDesc>0.00</vDesc>
+                    <vII>0.00</vII>
+                    <vIPI>0.00</vIPI>
+                    <vPIS>0.00</vPIS>
+                    <vCOFINS>0.00</vCOFINS>
+                    <vOutro>0.00</vOutro>
+                    <vNF>2269.00</vNF>
+                </ICMSTot>
+            </total>
+            <transp>
+                <modFrete>9</modFrete>
+                <vol>
+                    <qVol>1</qVol>
+                    <esp>volume</esp>
+                    <pesoL>2.500</pesoL>
+                    <pesoB>2.500</pesoB>
+                </vol>
+            </transp>
+            <infAdic>
+                <infCpl>Pedido: 35869 Tabela: F8 Vendedor: V104335 Usuario: PATRICED Expedicao:
+                    RETIRA PELO CLIENTE Nota Fiscal emitida com base no Cupom fiscal de numero
+                    006611 Impressora: C3 Substituicao Trib.ICMS item 1 cf. RICMS APENDICE II ITEM
+                    XXXV LETRA ADObs: G: 00 End.Cobranca: R VENANCIO AIRES, 983 1500, - CENTRO CRUZ
+                    ALTA - RS C G: 000 00 Em ate 7 dias apos a entrega, se o produto apresentar
+                    defeito, a troca podera ser efetuada diretamente em qualquer das lojas da FAST
+                    SHOP no mesmo Estado de emissao do d ocumento fiscal, desde que ausentes avarias
+                    ou danos aparentes, sem laudo tecnico ou procedimento de garantia previsto nos
+                    artigos 18 a 26 do Codigo de Defesa do Consumidor. A troca se dara mediante
+                    apresentacao da nota fiscal, embalagem original e acessorios. Essa troca em 7
+                    dias, nas lojas, e sem maiores formalidades, e um especial beneficio aos nossos
+                    clientes, independentemente dos termos e prazos das garantias legal e/ou
+                    contratual previstas para o produto/servico (artigos 18 a 26 da lei
+                    8.078/90).</infCpl>
+            </infAdic>
+        </infNFe>
+        <Signature>
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+                <Reference URI="#NFe43121143708379008348550010000175461000000014">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                        <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                    <DigestValue>Xyu770KQBvE55c4b4/EfVWzAoNg=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>Qk9zJBu6Mi6DEXMCJpwjeraky8f021Erj/hjhEbqXPVmWOMP7IuuF4GKKZtGHPgoN4IlUuCDgC4gikxB/G+rANojjew1KClqSUl8wehTsZvTSRXkLDSUYXpJY1LKKjeylaeX584NwI7o8aBfO5itgPmtsy+Pe19OFzlOZC/YF+zBgy/KqPQDd8QSYvZglveHY2qFilh/nbMzKorDG8iN23zF5nugiVaUVNQw4TGY8iq+RsahjVvyM9uiu1VeJ89Vu7CGBGuwomkkSLdeKxFT93gz2tPv+GmTFQwAdumWcq9YdjC4V9Plx6yULCqAlY/4okljW9atjAz3MW/2uu4RCQ==</SignatureValue>
+            <KeyInfo>
+                <X509Data>
+                    <X509Certificate>MIIIQjCCBiqgAwIBAgIQDm0R6qTsIXspQjoXR5Z33TANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQGEwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDEtMCsGA1UECxMkQ2VydGlzaWduIENlcnRpZmljYWRvcmEgRGlnaXRhbCBTLkEuMSEwHwYDVQQDExhBQyBDZXJ0aXNpZ24gTXVsdGlwbGEgRzUwHhcNMTIwODI4MDAwMDAwWhcNMTMwODI3MjM1OTU5WjCB0DELMAkGA1UEBhMCQlIxEzARBgNVBAoUCklDUC1CcmFzaWwxODA2BgNVBAsUL0F1dGVudGljYWRvIHBvciBDZXJ0aXNpZ24gQ2VydGlmaWNhZG9yYSBEaWdpdGFsMRswGQYDVQQLFBJBc3NpbmF0dXJhIFRpcG8gQTExFTATBgNVBAsUDElEIC0gMzU0NDQwMzEWMBQGA1UEAxMNRmFzdCBTaG9wIFMgQTEmMCQGCSqGSIb3DQEJARYXaW5mcmF0aUBmYXN0c2hvcC5jb20uYnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8DuxgkTaOwF4ibXU2Z43Po6bYOfeLwWQxlrv8wNnwgCtXYw8EdIIda+JB3sPhA8QH1ld9XFCw4r+UC1EBppNJVRdAcn9LNUxC6zzka7CLPtDRXw12a+dh2AhSehMGGOs9mTTMo4z3osAheckv4Z1N3doEJgHy9YbJyV52+546KGs3/SjwEelxP04Rb3qtADqXdfRL6R+v6v/DfePWjH/5RQdi8JVJZKhf6qGWfYGLBfjutZc7JSr1CUEiffTNXptrTGkZmvkMJ809LQGvGSIrJ4CpJGmf1DWn0P46Npd90NkTBVvC+c5jZZ9jTLtXBXMb6Yp1Ry9WvzXotumq8f/xAgMBAAGjggNxMIIDbTCBtwYDVR0RBIGvMIGsoDgGBWBMAQMEoC8ELTAyMDMxOTU2MDAxNzk5MjM4OTcwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMKAjBgVgTAEDAqAaBBhNSUxUT04gS0FaVVlVS0kgS0FLVU1PVE+gGQYFYEwBAwOgEAQONDM3MDgzNzkwMDAxMDCgFwYFYEwBAwegDgQMMDAwMDAwMDAwMDAwgRdpbmZyYXRpQGZhc3RzaG9wLmNvbS5icjAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFJ1Qz73/JMqvsTPrF+JCeo5pKo5TMA4GA1UdDwEB/wQEAwIF4DCBiQYDVR0gBIGBMH8wfQYGYEwBAgELMHMwcQYIKwYBBQUHAgEWZWh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vZHBjL0FDX0NlcnRpc2lnbl9NdWx0aXBsYS9EUENfQUNfQ2VydGlTaWduTXVsdGlwbGEucGRmMIIBJQYDVR0fBIIBHDCCARgwXKBaoFiGVmh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMFugWaBXhlVodHRwOi8vaWNwLWJyYXNpbC5vdXRyYWxjci5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMFugWaBXhlVodHRwOi8vcmVwb3NpdG9yaW8uaWNwYnJhc2lsLmdvdi5ici9sY3IvQ2VydGlzaWduL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCBoAYIKwYBBQUHAQEEgZMwgZAwZAYIKwYBBQUHMAKGWGh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vY2VydGlmaWNhZG9zL0FDX0NlcnRpc2lnbl9NdWx0aXBsYV9HNS5wN2MwKAYIKwYBBQUHMAGGHGh0dHA6Ly9vY3NwLmNlcnRpc2lnbi5jb20uYnIwDQYJKoZIhvcNAQELBQADggIBACl4Y5pqf5tvgXmcWYuWVMB5CnF8QUzYTMzIr6OcHJthybSjHCwNvKTY1jSeq2rqW/SuagkjuwTNrIGcY+4QYhb+gkc4z0dEtPcwCcrBSOSwYQ0cl5Q07+VD3crCUpoP14wKHJpzE3CW5n2MrK9rz326LD0UaVGV3yUChi5FjvyKW0/FqDmmRacbR1Z0RsZ5/upln8jDmC7lJv4QQh3mFQCzivLlrSuTztPRocwPpGi7a5edCgKhxiYddLPPPuuE70PtFYlSXOCc12GjXuD5cDEsA+kGDXpB2sG4Q1r/KFcnwMz1KdvY70+WaiJ4ygvSRkj+XA72EjPj1bhBwybOG4Fu/uGWOTslpf2p88UjH4Bk4XnFtU/EaP51DEeoW+R84DaTd13Doi5Ba+SN1X27wFG34RfMUEc8GqIamZdAuRgg8wbrhcU2cpEi80paqCWTvIGf9jEt8rWZHgl/gFf+e1Rv4iLnJliVZquSUr/hI324F7Q2tYpQqmhAbZvMn4gTP00FVF2aMQgYtJEJNjH2NkV4ZONCXs7z+7YI9FfHc11KLu/N0KybzfIHSeiS/SUfkqi3yvHW2Oo+VLrX/vbO+c+5BT3IHoWQimeN7LJzi5pkpXVXHFZcEinpECTFH30rL7HY3ndUTHGg/ktHlXUuNoE1jM/y5Wi9X3nOHkRoUKL6</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </Signature>
+    </NFe>
+    <protNFe versao="2.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infProt>
+            <tpAmb>1</tpAmb>
+            <verAplic>5.0</verAplic>
+            <chNFe>43121143708379008348550010000175461000000014</chNFe>
+            <dhRecbto>2012-11-23T21:17:25</dhRecbto>
+            <nProt>143120163710583</nProt>
+            <digVal>Xyu770KQBvE55c4b4/EfVWzAoNg=</digVal>
+            <cStat>100</cStat>
+            <xMotivo>Autorizado o uso da NF-e</xMotivo>
+        </infProt>
+    </protNFe>
+</nfeProc>
+
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="2.00">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe Id="NFe43121143708379008348550010000175441000000010" versao="2.00">
+            <ide>
+                <cUF>43</cUF>
+                <cNF>00000001</cNF>
+                <natOp>REMESSA VINCUL.ECF VN</natOp>
+                <indPag>0</indPag>
+                <mod>55</mod>
+                <serie>1</serie>
+                <nNF>17544</nNF>
+                <dEmi>2012-11-23</dEmi>
+                <tpNF>1</tpNF>
+                <cMunFG>4314902</cMunFG>
+                <tpImp>2</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>0</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <procEmi>0</procEmi>
+                <verProc>NeoGrid NFe 1.9.0.1</verProc>
+            </ide>
+            <emit>
+                <CNPJ>43708379008348</CNPJ>
+                <xNome>FAST SHOP S.A.</xNome>
+                <xFant>FAST SHOP S.A.</xFant>
+                <enderEmit>
+                    <xLgr>JOAO WALLIG</xLgr>
+                    <nro>1800</nro>
+                    <xCpl>210 PISO NP</xCpl>
+                    <xBairro>PASSO D.AREIA</xBairro>
+                    <cMun>4314902</cMun>
+                    <xMun>PORTO ALEGRE</xMun>
+                    <UF>RS</UF>
+                    <CEP>91349900</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                    <fone>1132323200</fone>
+                </enderEmit>
+                <IE>0963395009</IE>
+                <CRT>3</CRT>
+            </emit>
+            <dest>
+                <CPF>12345678900</CPF>
+                <xNome>GIOVANI LIBRELOTTO</xNome>
+                <enderDest>
+                    <xLgr>AV RORAIMA</xLgr>
+                    <nro>1000</nro>
+                    <xCpl>SALA 387</xCpl>
+                    <xBairro>CAMOBI</xBairro>
+                    <cMun>4316907</cMun>
+                    <xMun>SANTA MARIA</xMun>
+                    <UF>RS</UF>
+                    <CEP>97010041</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                    <fone>5591234567</fone>
+                </enderDest>
+                <IE>ISENTO</IE>
+                <email>librelotto@mail.com</email>
+            </dest>
+            <entrega>
+                <CPF>12345678900</CPF>
+                <xLgr>AV RORAIMA</xLgr>
+                <nro>1000</nro>
+                <xCpl>SALA 387</xCpl>
+                <xBairro>CAMOBI</xBairro>
+                <cMun>4316907</cMun>
+                <xMun>SANTA MARIA</xMun>
+                <UF>RS</UF>
+            </entrega>
+            <det nItem="1">
+                <prod>
+                    <cProd>AEMC838BEA</cProd>
+                    <cEAN>0885909453498</cEAN>
+                    <xProd>CABO DE CONEXAO HDMI PRETO | 0885909453498| Rua: A</xProd>
+                    <NCM>85444200</NCM>
+                    <CFOP>5929</CFOP>
+                    <uCom>PC</uCom>
+                    <qCom>1.0000</qCom>
+                    <vUnCom>47.0000</vUnCom>
+                    <vProd>47.00</vProd>
+                    <cEANTrib>0885909453498</cEANTrib>
+                    <uTrib>PC</uTrib>
+                    <qTrib>1.0000</qTrib>
+                    <vUnTrib>47.0000</vUnTrib>
+                    <indTot>1</indTot>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS60>
+                            <orig>2</orig>
+                            <CST>60</CST>
+                            <vBCSTRet>46.41</vBCSTRet>
+                            <vICMSSTRet>1.67</vICMSSTRet>
+                        </ICMS60>
+                    </ICMS>
+                    <PIS>
+                        <PISNT>
+                            <CST>08</CST>
+                        </PISNT>
+                    </PIS>
+                    <COFINS>
+                        <COFINSNT>
+                            <CST>08</CST>
+                        </COFINSNT>
+                    </COFINS>
+                </imposto>
+            </det>
+            <total>
+                <ICMSTot>
+                    <vBC>0.00</vBC>
+                    <vICMS>0.00</vICMS>
+                    <vBCST>0.00</vBCST>
+                    <vST>0.00</vST>
+                    <vProd>47.00</vProd>
+                    <vFrete>0.00</vFrete>
+                    <vSeg>0.00</vSeg>
+                    <vDesc>0.00</vDesc>
+                    <vII>0.00</vII>
+                    <vIPI>0.00</vIPI>
+                    <vPIS>0.00</vPIS>
+                    <vCOFINS>0.00</vCOFINS>
+                    <vOutro>0.00</vOutro>
+                    <vNF>47.00</vNF>
+                </ICMSTot>
+            </total>
+            <transp>
+                <modFrete>9</modFrete>
+                <vol>
+                    <qVol>1</qVol>
+                    <esp>volume</esp>
+                    <pesoL>0.070</pesoL>
+                    <pesoB>0.070</pesoB>
+                </vol>
+            </transp>
+            <infAdic>
+                <infCpl>Pedido: 35873 Tabela: F8 Vendedor: V104335 Usuario: PATRICED Expedicao:
+                    RETIRA PELO CLIENTE Nota Fiscal emitida com base no Cupom fiscal de numero
+                    006613 Impressora: C3 Substituicao Trib.ICMS item 1 cf. RICMS Apendice IIObs: G:
+                    000 00End.Cobranca: R G: 000 00 Em ate 7 dias apos a entrega, se o produto
+                    apresentar defeito, a troca podera ser efetuada diretamente em qualquer das
+                    lojas da FAST SHOP no mesmo Estado de emissao do documento fiscal, desde que
+                    ausentes avarias ou danos aparentes, sem laudo tecnico ou procedimento de
+                    garantia previsto nos artigos 18 a 26 do Codigo de Defesa do Consumidor. A troca
+                    se dara mediante apresentacao da nota fiscal, embalagem original e acessorios.
+                    Essa troca em 7 dias, nas lojas, e sem maiores formalidades, e um especial
+                    beneficio aos nossos clientes, independentemente dos termos e prazos das
+                    garantias legal e/ou contratual previstas para o produto/servico (artigos 18 a
+                    26 da lei 8.078/90).</infCpl>
+            </infAdic>
+        </infNFe>
+        <Signature>
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+                <Reference URI="#NFe43121143708379008348550010000175441000000010">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                        <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                    <DigestValue>kEaUniFxfvNiekrLwRgFkt7zs2E=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>szfr1ofW0cIA5cpXEqUpfc3q3psfA0utdS8j3/MWbPVu4nufk//0c/YMZx7WOPt23CVyRHzSgtESuRJ9YS4UKWLY506Rh17lEL3Lytive3hkYi3AVCHWs1HLjN7+SiIZiHFA3XhuVeWT1pibh4lEh0+ElIIxITiB5m8zzDXcgSbPH/3M3lthzHveK/cX1WSrEwub3wjR+hM7Bjw+GDsCev8H9KCobuqP/vIGmJbnrgpe6pZwwpSQGyyQB2cMhfvBalQ50swp+goO7hGKn8pht4sVN4EF34hzzDOuRiH27p7XTzvYTzDmGe6jIikadiWbDDGvlNJFWk7oKTSyBjdjYg==</SignatureValue>
+            <KeyInfo>
+                <X509Data>
+                    <X509Certificate>MIIIQjCCBiqgAwIBAgIQDm0R6qTsIXspQjoXR5Z33TANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQGEwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDEtMCsGA1UECxMkQ2VydGlzaWduIENlcnRpZmljYWRvcmEgRGlnaXRhbCBTLkEuMSEwHwYDVQQDExhBQyBDZXJ0aXNpZ24gTXVsdGlwbGEgRzUwHhcNMTIwODI4MDAwMDAwWhcNMTMwODI3MjM1OTU5WjCB0DELMAkGA1UEBhMCQlIxEzARBgNVBAoUCklDUC1CcmFzaWwxODA2BgNVBAsUL0F1dGVudGljYWRvIHBvciBDZXJ0aXNpZ24gQ2VydGlmaWNhZG9yYSBEaWdpdGFsMRswGQYDVQQLFBJBc3NpbmF0dXJhIFRpcG8gQTExFTATBgNVBAsUDElEIC0gMzU0NDQwMzEWMBQGA1UEAxMNRmFzdCBTaG9wIFMgQTEmMCQGCSqGSIb3DQEJARYXaW5mcmF0aUBmYXN0c2hvcC5jb20uYnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8DuxgkTaOwF4ibXU2Z43Po6bYOfeLwWQxlrv8wNnwgCtXYw8EdIIda+JB3sPhA8QH1ld9XFCw4r+UC1EBppNJVRdAcn9LNUxC6zzka7CLPtDRXw12a+dh2AhSehMGGOs9mTTMo4z3osAheckv4Z1N3doEJgHy9YbJyV52+546KGs3/SjwEelxP04Rb3qtADqXdfRL6R+v6v/DfePWjH/5RQdi8JVJZKhf6qGWfYGLBfjutZc7JSr1CUEiffTNXptrTGkZmvkMJ809LQGvGSIrJ4CpJGmf1DWn0P46Npd90NkTBVvC+c5jZZ9jTLtXBXMb6Yp1Ry9WvzXotumq8f/xAgMBAAGjggNxMIIDbTCBtwYDVR0RBIGvMIGsoDgGBWBMAQMEoC8ELTAyMDMxOTU2MDAxNzk5MjM4OTcwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMKAjBgVgTAEDAqAaBBhNSUxUT04gS0FaVVlVS0kgS0FLVU1PVE+gGQYFYEwBAwOgEAQONDM3MDgzNzkwMDAxMDCgFwYFYEwBAwegDgQMMDAwMDAwMDAwMDAwgRdpbmZyYXRpQGZhc3RzaG9wLmNvbS5icjAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFJ1Qz73/JMqvsTPrF+JCeo5pKo5TMA4GA1UdDwEB/wQEAwIF4DCBiQYDVR0gBIGBMH8wfQYGYEwBAgELMHMwcQYIKwYBBQUHAgEWZWh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vZHBjL0FDX0NlcnRpc2lnbl9NdWx0aXBsYS9EUENfQUNfQ2VydGlTaWduTXVsdGlwbGEucGRmMIIBJQYDVR0fBIIBHDCCARgwXKBaoFiGVmh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMFugWaBXhlVodHRwOi8vaWNwLWJyYXNpbC5vdXRyYWxjci5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMFugWaBXhlVodHRwOi8vcmVwb3NpdG9yaW8uaWNwYnJhc2lsLmdvdi5ici9sY3IvQ2VydGlzaWduL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCBoAYIKwYBBQUHAQEEgZMwgZAwZAYIKwYBBQUHMAKGWGh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vY2VydGlmaWNhZG9zL0FDX0NlcnRpc2lnbl9NdWx0aXBsYV9HNS5wN2MwKAYIKwYBBQUHMAGGHGh0dHA6Ly9vY3NwLmNlcnRpc2lnbi5jb20uYnIwDQYJKoZIhvcNAQELBQADggIBACl4Y5pqf5tvgXmcWYuWVMB5CnF8QUzYTMzIr6OcHJthybSjHCwNvKTY1jSeq2rqW/SuagkjuwTNrIGcY+4QYhb+gkc4z0dEtPcwCcrBSOSwYQ0cl5Q07+VD3crCUpoP14wKHJpzE3CW5n2MrK9rz326LD0UaVGV3yUChi5FjvyKW0/FqDmmRacbR1Z0RsZ5/upln8jDmC7lJv4QQh3mFQCzivLlrSuTztPRocwPpGi7a5edCgKhxiYddLPPPuuE70PtFYlSXOCc12GjXuD5cDEsA+kGDXpB2sG4Q1r/KFcnwMz1KdvY70+WaiJ4ygvSRkj+XA72EjPj1bhBwybOG4Fu/uGWOTslpf2p88UjH4Bk4XnFtU/EaP51DEeoW+R84DaTd13Doi5Ba+SN1X27wFG34RfMUEc8GqIamZdAuRgg8wbrhcU2cpEi80paqCWTvIGf9jEt8rWZHgl/gFf+e1Rv4iLnJliVZquSUr/hI324F7Q2tYpQqmhAbZvMn4gTP00FVF2aMQgYtJEJNjH2NkV4ZONCXs7z+7YI9FfHc11KLu/N0KybzfIHSeiS/SUfkqi3yvHW2Oo+VLrX/vbO+c+5BT3IHoWQimeN7LJzi5pkpXVXHFZcEinpECTFH30rL7HY3ndUTHGg/ktHlXUuNoE1jM/y5Wi9X3nOHkRoUKL6</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </Signature>
+    </NFe>
+    <protNFe versao="2.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infProt>
+            <tpAmb>1</tpAmb>
+            <verAplic>5.0</verAplic>
+            <chNFe>43121143708379008348550010000175441000000010</chNFe>
+            <dhRecbto>2012-11-23T21:16:40</dhRecbto>
+            <nProt>143120163710296</nProt>
+            <digVal>kEaUniFxfvNiekrLwRgFkt7zs2E=</digVal>
+            <cStat>100</cStat>
+            <xMotivo>Autorizado o uso da NF-e</xMotivo>
+        </infProt>
+    </protNFe>
+</nfeProc>
+
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="2.00">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe Id="NFe43121143708379008348550010000175451000000017" versao="2.00">
+            <ide>
+                <cUF>43</cUF>
+                <cNF>00000001</cNF>
+                <natOp>REMESSA VINCUL.ECF VN</natOp>
+                <indPag>0</indPag>
+                <mod>55</mod>
+                <serie>1</serie>
+                <nNF>17545</nNF>
+                <dEmi>2012-11-23</dEmi>
+                <tpNF>1</tpNF>
+                <cMunFG>4314902</cMunFG>
+                <tpImp>2</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>7</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <procEmi>0</procEmi>
+                <verProc>NeoGrid NFe 1.9.0.1</verProc>
+            </ide>
+            <emit>
+                <CNPJ>43708379008348</CNPJ>
+                <xNome>FAST SHOP S.A.</xNome>
+                <xFant>FAST SHOP S.A.</xFant>
+                <enderEmit>
+                    <xLgr>JOAO WALLIG</xLgr>
+                    <nro>1800</nro>
+                    <xCpl>210 PISO NP</xCpl>
+                    <xBairro>PASSO D.AREIA</xBairro>
+                    <cMun>4314902</cMun>
+                    <xMun>PORTO ALEGRE</xMun>
+                    <UF>RS</UF>
+                    <CEP>91349900</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                    <fone>1132323200</fone>
+                </enderEmit>
+                <IE>0963395009</IE>
+                <CRT>3</CRT>
+            </emit>
+            <dest>
+                <CPF>12345678900</CPF>
+                <xNome>GIOVANI LIBRELOTTO</xNome>
+                <enderDest>
+                    <xLgr>AV RORAIMA</xLgr>
+                    <nro>1000</nro>
+                    <xCpl>SALA 387</xCpl>
+                    <xBairro>CAMOBI</xBairro>
+                    <cMun>4316907</cMun>
+                    <xMun>SANTA MARIA</xMun>
+                    <UF>RS</UF>
+                    <CEP>97010041</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                    <fone>5591234567</fone>
+                </enderDest>
+                <IE>ISENTO</IE>
+                <email>librelotto@mail.com</email>
+            </dest>
+            <entrega>
+                <CPF>12345678900</CPF>
+                <xLgr>AV RORAIMA</xLgr>
+                <nro>1000</nro>
+                <xCpl>SALA 387</xCpl>
+                <xBairro>CAMOBI</xBairro>
+                <cMun>4316907</cMun>
+                <xMun>SANTA MARIA</xMun>
+                <UF>RS</UF>
+            </entrega>
+            <det nItem="1">
+                <prod>
+                    <cProd>AEMC838BEA</cProd>
+                    <cEAN>0885909453498</cEAN>
+                    <xProd>CABO DE CONEXAO HDMI PRETO | 0885909453498| Rua: L</xProd>
+                    <NCM>85444200</NCM>
+                    <CFOP>5929</CFOP>
+                    <uCom>PC</uCom>
+                    <qCom>1.0000</qCom>
+                    <vUnCom>47.0000</vUnCom>
+                    <vProd>47.00</vProd>
+                    <cEANTrib>0885909453498</cEANTrib>
+                    <uTrib>PC</uTrib>
+                    <qTrib>1.0000</qTrib>
+                    <vUnTrib>47.0000</vUnTrib>
+                    <indTot>1</indTot>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS60>
+                            <orig>2</orig>
+                            <CST>60</CST>
+                            <vBCSTRet>46.41</vBCSTRet>
+                            <vICMSSTRet>1.67</vICMSSTRet>
+                        </ICMS60>
+                    </ICMS>
+                    <PIS>
+                        <PISNT>
+                            <CST>08</CST>
+                        </PISNT>
+                    </PIS>
+                    <COFINS>
+                        <COFINSNT>
+                            <CST>08</CST>
+                        </COFINSNT>
+                    </COFINS>
+                </imposto>
+            </det>
+            <total>
+                <ICMSTot>
+                    <vBC>0.00</vBC>
+                    <vICMS>0.00</vICMS>
+                    <vBCST>0.00</vBCST>
+                    <vST>0.00</vST>
+                    <vProd>47.00</vProd>
+                    <vFrete>0.00</vFrete>
+                    <vSeg>0.00</vSeg>
+                    <vDesc>0.00</vDesc>
+                    <vII>0.00</vII>
+                    <vIPI>0.00</vIPI>
+                    <vPIS>0.00</vPIS>
+                    <vCOFINS>0.00</vCOFINS>
+                    <vOutro>0.00</vOutro>
+                    <vNF>47.00</vNF>
+                </ICMSTot>
+            </total>
+            <transp>
+                <modFrete>9</modFrete>
+                <vol>
+                    <qVol>1</qVol>
+                    <esp>volume</esp>
+                    <pesoL>0.070</pesoL>
+                    <pesoB>0.070</pesoB>
+                </vol>
+            </transp>
+            <infAdic>
+                <infCpl>Pedido: 35875 Tabela: F8 Vendedor: V104335 Usuario: PATRICED Expedicao:
+                    RETIRA PELO CLIENTE Nota Fiscal emitida com base no Cupom fiscal de numero
+                    006612 Impressora: C3 Substituicao Trib.ICMS item 1 cf. RICMS Apendice IIObs: G:
+                    000 00End.Cobranca: R G: 000 00 Em ate 7 dias apos a entrega, se o produto
+                    apresentar defeito, a troca podera ser efetuada diretamente em qualquer das
+                    lojas da FAST SHOP no mesmo Estado de emissao do documento fiscal, desde que
+                    ausentes avarias ou danos aparentes, sem laudo tecnico ou procedimento de
+                    garantia previsto nos artigos 18 a 26 do Codigo de Defesa do Consumidor. A troca
+                    se dara mediante apresentacao da nota fiscal, embalagem original e acessorios.
+                    Essa troca em 7 dias, nas lojas, e sem maiores formalidades, e um especial
+                    beneficio aos nossos clientes, independentemente dos termos e prazos das
+                    garantias legal e/ou contratual previstas para o produto/servico (artigos 18 a
+                    26 da lei 8.078/90).</infCpl>
+            </infAdic>
+        </infNFe>
+        <Signature>
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+                <Reference URI="#NFe43121143708379008348550010000175451000000017">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                        <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                    <DigestValue>onvgv2J+cVbtwDfLLul2EWHk65U=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>o2xDg6J1ViMgL3FvvY0CbNT5a8U2/E/On8aw3bWTBJR4L5gjh7liqQ+qM89JkVzKCZJaLG4V1kqlqfBrclI2ALuKmqy/iOHKBUiCACt9tSgsR5BIk9t5FfQ+akX4AWqMym621pUEstzMpF5WPgszV0FVfghAd1MNKdseBGEeMkpenNBj/o3/g7yjSouQWaG0slYU7Bw6h/HH8MsgHxl0ycEDxLyzJHDo6v0Ktx8zaQcNryUE3ToVjNDD7QUA2pLUv93vIF6GS90jMWvbi6k+omEHeyxTK4RTLeqAJp49MoD5ODzurBhG6V0RKPyBg+5HKKkJrFpp4B06ccJSewAJRA==</SignatureValue>
+            <KeyInfo>
+                <X509Data>
+                    <X509Certificate>MIIIQjCCBiqgAwIBAgIQDm0R6qTsIXspQjoXR5Z33TANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQGEwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDEtMCsGA1UECxMkQ2VydGlzaWduIENlcnRpZmljYWRvcmEgRGlnaXRhbCBTLkEuMSEwHwYDVQQDExhBQyBDZXJ0aXNpZ24gTXVsdGlwbGEgRzUwHhcNMTIwODI4MDAwMDAwWhcNMTMwODI3MjM1OTU5WjCB0DELMAkGA1UEBhMCQlIxEzARBgNVBAoUCklDUC1CcmFzaWwxODA2BgNVBAsUL0F1dGVudGljYWRvIHBvciBDZXJ0aXNpZ24gQ2VydGlmaWNhZG9yYSBEaWdpdGFsMRswGQYDVQQLFBJBc3NpbmF0dXJhIFRpcG8gQTExFTATBgNVBAsUDElEIC0gMzU0NDQwMzEWMBQGA1UEAxMNRmFzdCBTaG9wIFMgQTEmMCQGCSqGSIb3DQEJARYXaW5mcmF0aUBmYXN0c2hvcC5jb20uYnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8DuxgkTaOwF4ibXU2Z43Po6bYOfeLwWQxlrv8wNnwgCtXYw8EdIIda+JB3sPhA8QH1ld9XFCw4r+UC1EBppNJVRdAcn9LNUxC6zzka7CLPtDRXw12a+dh2AhSehMGGOs9mTTMo4z3osAheckv4Z1N3doEJgHy9YbJyV52+546KGs3/SjwEelxP04Rb3qtADqXdfRL6R+v6v/DfePWjH/5RQdi8JVJZKhf6qGWfYGLBfjutZc7JSr1CUEiffTNXptrTGkZmvkMJ809LQGvGSIrJ4CpJGmf1DWn0P46Npd90NkTBVvC+c5jZZ9jTLtXBXMb6Yp1Ry9WvzXotumq8f/xAgMBAAGjggNxMIIDbTCBtwYDVR0RBIGvMIGsoDgGBWBMAQMEoC8ELTAyMDMxOTU2MDAxNzk5MjM4OTcwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMKAjBgVgTAEDAqAaBBhNSUxUT04gS0FaVVlVS0kgS0FLVU1PVE+gGQYFYEwBAwOgEAQONDM3MDgzNzkwMDAxMDCgFwYFYEwBAwegDgQMMDAwMDAwMDAwMDAwgRdpbmZyYXRpQGZhc3RzaG9wLmNvbS5icjAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFJ1Qz73/JMqvsTPrF+JCeo5pKo5TMA4GA1UdDwEB/wQEAwIF4DCBiQYDVR0gBIGBMH8wfQYGYEwBAgELMHMwcQYIKwYBBQUHAgEWZWh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vZHBjL0FDX0NlcnRpc2lnbl9NdWx0aXBsYS9EUENfQUNfQ2VydGlTaWduTXVsdGlwbGEucGRmMIIBJQYDVR0fBIIBHDCCARgwXKBaoFiGVmh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMFugWaBXhlVodHRwOi8vaWNwLWJyYXNpbC5vdXRyYWxjci5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMFugWaBXhlVodHRwOi8vcmVwb3NpdG9yaW8uaWNwYnJhc2lsLmdvdi5ici9sY3IvQ2VydGlzaWduL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCBoAYIKwYBBQUHAQEEgZMwgZAwZAYIKwYBBQUHMAKGWGh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vY2VydGlmaWNhZG9zL0FDX0NlcnRpc2lnbl9NdWx0aXBsYV9HNS5wN2MwKAYIKwYBBQUHMAGGHGh0dHA6Ly9vY3NwLmNlcnRpc2lnbi5jb20uYnIwDQYJKoZIhvcNAQELBQADggIBACl4Y5pqf5tvgXmcWYuWVMB5CnF8QUzYTMzIr6OcHJthybSjHCwNvKTY1jSeq2rqW/SuagkjuwTNrIGcY+4QYhb+gkc4z0dEtPcwCcrBSOSwYQ0cl5Q07+VD3crCUpoP14wKHJpzE3CW5n2MrK9rz326LD0UaVGV3yUChi5FjvyKW0/FqDmmRacbR1Z0RsZ5/upln8jDmC7lJv4QQh3mFQCzivLlrSuTztPRocwPpGi7a5edCgKhxiYddLPPPuuE70PtFYlSXOCc12GjXuD5cDEsA+kGDXpB2sG4Q1r/KFcnwMz1KdvY70+WaiJ4ygvSRkj+XA72EjPj1bhBwybOG4Fu/uGWOTslpf2p88UjH4Bk4XnFtU/EaP51DEeoW+R84DaTd13Doi5Ba+SN1X27wFG34RfMUEc8GqIamZdAuRgg8wbrhcU2cpEi80paqCWTvIGf9jEt8rWZHgl/gFf+e1Rv4iLnJliVZquSUr/hI324F7Q2tYpQqmhAbZvMn4gTP00FVF2aMQgYtJEJNjH2NkV4ZONCXs7z+7YI9FfHc11KLu/N0KybzfIHSeiS/SUfkqi3yvHW2Oo+VLrX/vbO+c+5BT3IHoWQimeN7LJzi5pkpXVXHFZcEinpECTFH30rL7HY3ndUTHGg/ktHlXUuNoE1jM/y5Wi9X3nOHkRoUKL6</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </Signature>
+    </NFe>
+    <protNFe versao="2.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infProt>
+            <tpAmb>1</tpAmb>
+            <verAplic>5.0</verAplic>
+            <chNFe>43121143708379008348550010000175451000000017</chNFe>
+            <dhRecbto>2012-11-23T21:17:05</dhRecbto>
+            <nProt>143120163710502</nProt>
+            <digVal>onvgv2J+cVbtwDfLLul2EWHk65U=</digVal>
+            <cStat>100</cStat>
+            <xMotivo>Autorizado o uso da NF-e</xMotivo>
+        </infProt>
+    </protNFe>
+</nfeProc>
+
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="2.00">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe Id="NFe43121043708379008348550010000169841000000019" versao="2.00">
+            <ide>
+                <cUF>43</cUF>
+                <cNF>00000001</cNF>
+                <natOp>REMESSA VINCUL.ECF VN</natOp>
+                <indPag>0</indPag>
+                <mod>55</mod>
+                <serie>1</serie>
+                <nNF>16984</nNF>
+                <dEmi>2012-10-31</dEmi>
+                <tpNF>1</tpNF>
+                <cMunFG>4314902</cMunFG>
+                <tpImp>2</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>9</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <procEmi>0</procEmi>
+                <verProc>NeoGrid NFe 1.9.0.1</verProc>
+            </ide>
+            <emit>
+                <CNPJ>43708379008348</CNPJ>
+                <xNome>FAST SHOP S.A.</xNome>
+                <xFant>FAST SHOP S.A.</xFant>
+                <enderEmit>
+                    <xLgr>JOAO WALLIG</xLgr>
+                    <nro>1800</nro>
+                    <xCpl>210 PISO NP</xCpl>
+                    <xBairro>PASSO D.AREIA</xBairro>
+                    <cMun>4314902</cMun>
+                    <xMun>PORTO ALEGRE</xMun>
+                    <UF>RS</UF>
+                    <CEP>91349900</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                    <fone>1132323200</fone>
+                </enderEmit>
+                <IE>0963395009</IE>
+                <CRT>3</CRT>
+            </emit>
+            <dest>
+                <CPF>12345678900</CPF>
+                <xNome>GIOVANI LIBRELOTTO</xNome>
+                <enderDest>
+                    <xLgr>AV RORAIMA</xLgr>
+                    <nro>1000</nro>
+                    <xCpl>SALA 387</xCpl>
+                    <xBairro>CAMOBI</xBairro>
+                    <cMun>4316907</cMun>
+                    <xMun>SANTA MARIA</xMun>
+                    <UF>RS</UF>
+                    <CEP>97010041</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                    <fone>5591234567</fone>
+                </enderDest>
+                <IE>ISENTO</IE>
+                <email>librelotto@mail.com</email>
+            </dest>
+            <entrega>
+                <CPF>12345678900</CPF>
+                <xLgr>AV RORAIMA</xLgr>
+                <nro>1000</nro>
+                <xCpl>SALA 387</xCpl>
+                <xBairro>CAMOBI</xBairro>
+                <cMun>4316907</cMun>
+                <xMun>SANTA MARIA</xMun>
+                <UF>RS</UF>
+            </entrega>
+            <det nItem="1">
+                <prod>
+                    <cProd>AEMC815BZA</cProd>
+                    <cEAN>0885909455232</cEAN>
+                    <xProd>MAC MINI COREI5 2GB500GB | 0885909455232| Rua: A</xProd>
+                    <NCM>84715010</NCM>
+                    <CFOP>5929</CFOP>
+                    <uCom>PC</uCom>
+                    <qCom>1.0000</qCom>
+                    <vUnCom>1606.0000</vUnCom>
+                    <vProd>1606.00</vProd>
+                    <cEANTrib>0885909455232</cEANTrib>
+                    <uTrib>PC</uTrib>
+                    <qTrib>1.0000</qTrib>
+                    <vUnTrib>1606.0000</vUnTrib>
+                    <indTot>1</indTot>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS60>
+                            <orig>2</orig>
+                            <CST>60</CST>
+                            <vBCSTRet>1760.82</vBCSTRet>
+                            <vICMSSTRet>60.73</vICMSSTRet>
+                        </ICMS60>
+                    </ICMS>
+                    <PIS>
+                        <PISNT>
+                            <CST>08</CST>
+                        </PISNT>
+                    </PIS>
+                    <COFINS>
+                        <COFINSNT>
+                            <CST>08</CST>
+                        </COFINSNT>
+                    </COFINS>
+                </imposto>
+            </det>
+            <det nItem="2">
+                <prod>
+                    <cProd>AEMD032BZA</cProd>
+                    <cEAN>0885909480920</cEAN>
+                    <xProd>ROTEADOR TIME CAPSULE 2TB BCO | 0885909480920| Rua: A</xProd>
+                    <NCM>84717019</NCM>
+                    <CFOP>5929</CFOP>
+                    <uCom>PC</uCom>
+                    <qCom>1.0000</qCom>
+                    <vUnCom>852.0000</vUnCom>
+                    <vProd>852.00</vProd>
+                    <cEANTrib>0885909480920</cEANTrib>
+                    <uTrib>PC</uTrib>
+                    <qTrib>1.0000</qTrib>
+                    <vUnTrib>852.0000</vUnTrib>
+                    <indTot>1</indTot>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS60>
+                            <orig>2</orig>
+                            <CST>60</CST>
+                            <vBCSTRet>892.56</vBCSTRet>
+                            <vICMSSTRet>37.84</vICMSSTRet>
+                        </ICMS60>
+                    </ICMS>
+                    <PIS>
+                        <PISNT>
+                            <CST>08</CST>
+                        </PISNT>
+                    </PIS>
+                    <COFINS>
+                        <COFINSNT>
+                            <CST>08</CST>
+                        </COFINSNT>
+                    </COFINS>
+                </imposto>
+            </det>
+            <total>
+                <ICMSTot>
+                    <vBC>0.00</vBC>
+                    <vICMS>0.00</vICMS>
+                    <vBCST>0.00</vBCST>
+                    <vST>0.00</vST>
+                    <vProd>2458.00</vProd>
+                    <vFrete>0.00</vFrete>
+                    <vSeg>0.00</vSeg>
+                    <vDesc>0.00</vDesc>
+                    <vII>0.00</vII>
+                    <vIPI>0.00</vIPI>
+                    <vPIS>0.00</vPIS>
+                    <vCOFINS>0.00</vCOFINS>
+                    <vOutro>0.00</vOutro>
+                    <vNF>2458.00</vNF>
+                </ICMSTot>
+            </total>
+            <transp>
+                <modFrete>9</modFrete>
+                <vol>
+                    <qVol>2</qVol>
+                    <esp>volumes</esp>
+                    <pesoL>4.530</pesoL>
+                    <pesoB>4.530</pesoB>
+                </vol>
+            </transp>
+            <infAdic>
+                <infCpl>Pedido: 47539 Tabela: E8 Vendedor: V105433 Usuario: MARCELAC Expedicao:
+                    RETIRA PELO CLIENTE Nota Fiscal emitida com base no Cupom fiscal de numero
+                    006123 Impressora: C2 Produto(s) destinado(s) ao uso, consumo ou ativo
+                    imobilizado do adquirente. Venda efetuada com suspensao da exigencia da
+                    Contribuicao para o PIS/PASEP e da COFINS Substituicao Trib.ICMS item 1 cf.
+                    RICMS APENDICE II ITEM XXXV LETRA AD Substitui End.Cobranca: R VENANCIO AIRES,
+                    983 1500, - CENTRO CRUZ ALTA - RS C G: 000 00 G: 000 00 Em ate 7 dias apos a
+                    entrega, se o produto apresentar defeito, a troca podera ser efetuada
+                    diretamente em qualquer das lojas da FAST SHOP no mesmo Estado de emissao do
+                    documento fiscal, desde que ausentes avarias ou danos aparentes, sem laudo
+                    tecnico ou procedimento de garantia previsto nos artigos 18 a 26 do Codigo de
+                    Defesa do Consumidor. A troca se dara mediante apresentacao da nota fiscal,
+                    embalagem original e acessorios. Essa troca em 7 dias, nas lojas, e sem maiores
+                    formalidades, e um especial beneficio aos nossos clientes, independentemente dos
+                    termos e prazos das garantias legal e/ou contratual previstas para o
+                    produto/servico (artigos 18 a 26 da lei 8.078/90).</infCpl>
+            </infAdic>
+        </infNFe>
+        <Signature>
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+                <Reference URI="#NFe43121043708379008348550010000169841000000019">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                        <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                    <DigestValue>fbUiwk3PRJQIbdEHqugUPcKNbZk=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>Hknp9aMcbXMM5juIaZWmTiwIvuBHD1MD1P5WwjVPgv0Eg0pPGfZxgHf9cJlWRgXniWH/p9z+JLyMzp4s+fcoAbR4mlqSIa6fQBPgUPxH35853hiutdxp22jI6xNIGmkLeybpUIs14leSPQ9B+HbbnwXcfqRVlwoMVuVgc457BixIZ2Yp7vQtrrMf375mRPdxAeOLddr5PUclpm8aN1nJozv/+Jz0kDcnUWPWRfICw+0osYv3Dfow6AH5Sq2dNewLuriquiQba+7FK+RI2VJN0AcyzroeGgwsNzW5q+aTF9WsZf7LttqAmHhvpyTeiH5SLaRMh6Xgm8lNI0Oh3sl07w==</SignatureValue>
+            <KeyInfo>
+                <X509Data>
+                    <X509Certificate>MIIIQjCCBiqgAwIBAgIQDm0R6qTsIXspQjoXR5Z33TANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQGEwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDEtMCsGA1UECxMkQ2VydGlzaWduIENlcnRpZmljYWRvcmEgRGlnaXRhbCBTLkEuMSEwHwYDVQQDExhBQyBDZXJ0aXNpZ24gTXVsdGlwbGEgRzUwHhcNMTIwODI4MDAwMDAwWhcNMTMwODI3MjM1OTU5WjCB0DELMAkGA1UEBhMCQlIxEzARBgNVBAoUCklDUC1CcmFzaWwxODA2BgNVBAsUL0F1dGVudGljYWRvIHBvciBDZXJ0aXNpZ24gQ2VydGlmaWNhZG9yYSBEaWdpdGFsMRswGQYDVQQLFBJBc3NpbmF0dXJhIFRpcG8gQTExFTATBgNVBAsUDElEIC0gMzU0NDQwMzEWMBQGA1UEAxMNRmFzdCBTaG9wIFMgQTEmMCQGCSqGSIb3DQEJARYXaW5mcmF0aUBmYXN0c2hvcC5jb20uYnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8DuxgkTaOwF4ibXU2Z43Po6bYOfeLwWQxlrv8wNnwgCtXYw8EdIIda+JB3sPhA8QH1ld9XFCw4r+UC1EBppNJVRdAcn9LNUxC6zzka7CLPtDRXw12a+dh2AhSehMGGOs9mTTMo4z3osAheckv4Z1N3doEJgHy9YbJyV52+546KGs3/SjwEelxP04Rb3qtADqXdfRL6R+v6v/DfePWjH/5RQdi8JVJZKhf6qGWfYGLBfjutZc7JSr1CUEiffTNXptrTGkZmvkMJ809LQGvGSIrJ4CpJGmf1DWn0P46Npd90NkTBVvC+c5jZZ9jTLtXBXMb6Yp1Ry9WvzXotumq8f/xAgMBAAGjggNxMIIDbTCBtwYDVR0RBIGvMIGsoDgGBWBMAQMEoC8ELTAyMDMxOTU2MDAxNzk5MjM4OTcwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMKAjBgVgTAEDAqAaBBhNSUxUT04gS0FaVVlVS0kgS0FLVU1PVE+gGQYFYEwBAwOgEAQONDM3MDgzNzkwMDAxMDCgFwYFYEwBAwegDgQMMDAwMDAwMDAwMDAwgRdpbmZyYXRpQGZhc3RzaG9wLmNvbS5icjAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFJ1Qz73/JMqvsTPrF+JCeo5pKo5TMA4GA1UdDwEB/wQEAwIF4DCBiQYDVR0gBIGBMH8wfQYGYEwBAgELMHMwcQYIKwYBBQUHAgEWZWh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vZHBjL0FDX0NlcnRpc2lnbl9NdWx0aXBsYS9EUENfQUNfQ2VydGlTaWduTXVsdGlwbGEucGRmMIIBJQYDVR0fBIIBHDCCARgwXKBaoFiGVmh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMFugWaBXhlVodHRwOi8vaWNwLWJyYXNpbC5vdXRyYWxjci5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMFugWaBXhlVodHRwOi8vcmVwb3NpdG9yaW8uaWNwYnJhc2lsLmdvdi5ici9sY3IvQ2VydGlzaWduL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCBoAYIKwYBBQUHAQEEgZMwgZAwZAYIKwYBBQUHMAKGWGh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vY2VydGlmaWNhZG9zL0FDX0NlcnRpc2lnbl9NdWx0aXBsYV9HNS5wN2MwKAYIKwYBBQUHMAGGHGh0dHA6Ly9vY3NwLmNlcnRpc2lnbi5jb20uYnIwDQYJKoZIhvcNAQELBQADggIBACl4Y5pqf5tvgXmcWYuWVMB5CnF8QUzYTMzIr6OcHJthybSjHCwNvKTY1jSeq2rqW/SuagkjuwTNrIGcY+4QYhb+gkc4z0dEtPcwCcrBSOSwYQ0cl5Q07+VD3crCUpoP14wKHJpzE3CW5n2MrK9rz326LD0UaVGV3yUChi5FjvyKW0/FqDmmRacbR1Z0RsZ5/upln8jDmC7lJv4QQh3mFQCzivLlrSuTztPRocwPpGi7a5edCgKhxiYddLPPPuuE70PtFYlSXOCc12GjXuD5cDEsA+kGDXpB2sG4Q1r/KFcnwMz1KdvY70+WaiJ4ygvSRkj+XA72EjPj1bhBwybOG4Fu/uGWOTslpf2p88UjH4Bk4XnFtU/EaP51DEeoW+R84DaTd13Doi5Ba+SN1X27wFG34RfMUEc8GqIamZdAuRgg8wbrhcU2cpEi80paqCWTvIGf9jEt8rWZHgl/gFf+e1Rv4iLnJliVZquSUr/hI324F7Q2tYpQqmhAbZvMn4gTP00FVF2aMQgYtJEJNjH2NkV4ZONCXs7z+7YI9FfHc11KLu/N0KybzfIHSeiS/SUfkqi3yvHW2Oo+VLrX/vbO+c+5BT3IHoWQimeN7LJzi5pkpXVXHFZcEinpECTFH30rL7HY3ndUTHGg/ktHlXUuNoE1jM/y5Wi9X3nOHkRoUKL6</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </Signature>
+    </NFe>
+    <protNFe versao="2.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infProt>
+            <tpAmb>1</tpAmb>
+            <verAplic>5.0</verAplic>
+            <chNFe>43121043708379008348550010000169841000000019</chNFe>
+            <dhRecbto>2012-10-31T18:11:56</dhRecbto>
+            <nProt>143120151317501</nProt>
+            <digVal>fbUiwk3PRJQIbdEHqugUPcKNbZk=</digVal>
+            <cStat>100</cStat>
+            <xMotivo>Autorizado o uso da NF-e</xMotivo>
+        </infProt>
+    </protNFe>
+</nfeProc>
+
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="2.00">
+    <NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infNFe Id="NFe35130743708379006485550050005663981000000013" versao="2.00">
+            <ide>
+                <cUF>35</cUF>
+                <cNF>00000001</cNF>
+                <natOp>VENDA MERC.SUBTRB.UF VM</natOp>
+                <indPag>0</indPag>
+                <mod>55</mod>
+                <serie>5</serie>
+                <nNF>566398</nNF>
+                <dEmi>2013-07-02</dEmi>
+                <tpNF>1</tpNF>
+                <cMunFG>3509205</cMunFG>
+                <tpImp>2</tpImp>
+                <tpEmis>1</tpEmis>
+                <cDV>3</cDV>
+                <tpAmb>1</tpAmb>
+                <finNFe>1</finNFe>
+                <procEmi>0</procEmi>
+                <verProc>NeoGrid NFe 1.16.1.1</verProc>
+            </ide>
+            <emit>
+                <CNPJ>43708379006485</CNPJ>
+                <xNome>FAST SHOP S.A.</xNome>
+                <xFant>FAST SHOP S.A.</xFant>
+                <enderEmit>
+                    <xLgr>ANHANGUERA</xLgr>
+                    <nro>S.N</nro>
+                    <xCpl>KM 37.5</xCpl>
+                    <xBairro>JORDANESIA</xBairro>
+                    <cMun>3509205</cMun>
+                    <xMun>CAJAMAR</xMun>
+                    <UF>SP</UF>
+                    <CEP>07750000</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                    <fone>1132323200</fone>
+                </enderEmit>
+                <IE>241091299113</IE>
+                <CRT>3</CRT>
+            </emit>
+            <dest>
+                <CPF>12345678900</CPF>
+                <xNome>GIOVANI LIBRELOTTO</xNome>
+                <enderDest>
+                    <xLgr>AV RORAIMA</xLgr>
+                    <nro>1000</nro>
+                    <xCpl>SALA 387</xCpl>
+                    <xBairro>CAMOBI</xBairro>
+                    <cMun>4316907</cMun>
+                    <xMun>SANTA MARIA</xMun>
+                    <UF>RS</UF>
+                    <CEP>97010041</CEP>
+                    <cPais>1058</cPais>
+                    <xPais>Brasil</xPais>
+                    <fone>5591234567</fone>
+                </enderDest>
+                <IE>ISENTO</IE>
+                <email>librelotto@mail.com</email>
+            </dest>
+            <entrega>
+                <CPF>12345678900</CPF>
+                <xLgr>AV RORAIMA</xLgr>
+                <nro>1000</nro>
+                <xCpl>SALA 387</xCpl>
+                <xBairro>CAMOBI</xBairro>
+                <cMun>4316907</cMun>
+                <xMun>SANTA MARIA</xMun>
+                <UF>RS</UF>
+            </entrega>
+            <det nItem="1">
+                <prod>
+                    <cProd>LG47LM6400</cProd>
+                    <cEAN>7893299100079</cEAN>
+                    <xProd>SMART TV LED LCD 3D FHD 47P | 7893299100079| Rua: A</xProd>
+                    <NCM>85287200</NCM>
+                    <CFOP>6404</CFOP>
+                    <uCom>PC</uCom>
+                    <qCom>1.0000</qCom>
+                    <vUnCom>2387.6800</vUnCom>
+                    <vProd>2387.68</vProd>
+                    <cEANTrib>7893299100079</cEANTrib>
+                    <uTrib>PC</uTrib>
+                    <qTrib>1.0000</qTrib>
+                    <vUnTrib>2387.6800</vUnTrib>
+                    <vFrete>51.80</vFrete>
+                    <indTot>1</indTot>
+                </prod>
+                <imposto>
+                    <ICMS>
+                        <ICMS60>
+                            <orig>4</orig>
+                            <CST>60</CST>
+                            <vBCSTRet>2651.00</vBCSTRet>
+                            <vICMSSTRet>117.18</vICMSSTRet>
+                        </ICMS60>
+                    </ICMS>
+                    <PIS>
+                        <PISAliq>
+                            <CST>01</CST>
+                            <vBC>2439.48</vBC>
+                            <pPIS>1.65</pPIS>
+                            <vPIS>40.25</vPIS>
+                        </PISAliq>
+                    </PIS>
+                    <COFINS>
+                        <COFINSAliq>
+                            <CST>01</CST>
+                            <vBC>2439.48</vBC>
+                            <pCOFINS>7.60</pCOFINS>
+                            <vCOFINS>185.40</vCOFINS>
+                        </COFINSAliq>
+                    </COFINS>
+                </imposto>
+            </det>
+            <total>
+                <ICMSTot>
+                    <vBC>0.00</vBC>
+                    <vICMS>0.00</vICMS>
+                    <vBCST>0.00</vBCST>
+                    <vST>0.00</vST>
+                    <vProd>2387.68</vProd>
+                    <vFrete>51.80</vFrete>
+                    <vSeg>0.00</vSeg>
+                    <vDesc>0.00</vDesc>
+                    <vII>0.00</vII>
+                    <vIPI>0.00</vIPI>
+                    <vPIS>40.25</vPIS>
+                    <vCOFINS>185.40</vCOFINS>
+                    <vOutro>0.00</vOutro>
+                    <vNF>2439.48</vNF>
+                </ICMSTot>
+            </total>
+            <transp>
+                <modFrete>1</modFrete>
+                <transporta>
+                    <CNPJ>02058135000303</CNPJ>
+                    <xNome>JOAO LUIZ DOS SANTOS LAGUNA</xNome>
+                    <IE>149732186112</IE>
+                    <xEnder>R SD JOSE PIRES BARBOSA FILHO 24</xEnder>
+                    <xMun>SAO PAULO</xMun>
+                    <UF>SP</UF>
+                </transporta>
+                <vol>
+                    <qVol>1</qVol>
+                    <esp>volume</esp>
+                    <pesoL>20.900</pesoL>
+                    <pesoB>20.900</pesoB>
+                </vol>
+            </transp>
+            <infAdic>
+                <infCpl>Pedido: 145545 Tabela: 58 Vendedor: V102526 Usuario: TEFSITE Val. Aproximado
+                    dos Tributos - R$975,61 (40,86%). Fonte: IBPT. Obs: G: 000 00 Em ate 7 dias apos
+                    a entrega, se o produto apresentar defeito, a troca podera ser efetuada
+                    diretamente em qualquer das lojas da FAST SHOP no mesmo Estado de emissao do
+                    documento fiscal, desde que ausentes avarias ou danos aparentes, sem laudo
+                    tecnico ou procedimento de garantia previsto nos artigos 18 a 26 do Codigo de
+                    Defesa do Consumidor. A troca se dara mediante apresentacao da nota fiscal,
+                    embalagem original e acessorios. Essa troca em 7 dias, nas lojas, e sem maiores
+                    formalidades, e um especial beneficio aos nossos clientes, independentemente dos
+                    termos e prazos das garantias legal e/ou contratual previstas para o
+                    produto/servico (artigos 18 a 26 da lei 8.078/90). Substituicao Trib.ICMS item 1
+                    cf. RICMS Art 313-Z19</infCpl>
+            </infAdic>
+        </infNFe>
+        <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <SignedInfo>
+                <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+                <Reference URI="#NFe35130743708379006485550050005663981000000013">
+                    <Transforms>
+                        <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                        <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+                    </Transforms>
+                    <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                    <DigestValue>s/uixIqU3qCYCsOaUntT3SsED3s=</DigestValue>
+                </Reference>
+            </SignedInfo>
+            <SignatureValue>q5ez8xm5VTJaEymoYaly4x4MHyhmwPNpKhLAofFM7Ft8Y+wCvvX+Bh2O+Nvnlg0NXEFTOkYzErZ0AeEz9G/9X5CT3LX1R9iQ+sg81zMbiotPxac0VY1NVqm12Lz3s7+XnqYXOw4141rkOwDWHw2mcwkDIdELER9D13KFv6ERE0poUGkeVki4hRHbuES7WNBMFWNB+hYvQ2I/Yn33xX1jMIx41d1oqaV+cWCau+Hx9o20Ofd9YOvOEmy9Dwdo2eArLqzWYAsjHhlrYapDeubpXpSoc4qF6F1mWmMCwDBh3MXH1ejoeUqdJGG0EMIw/8pfHGk5S6QZ6aMvG0hsUCJcyQ==</SignatureValue>
+            <KeyInfo>
+                <X509Data>
+                    <X509Certificate>MIIIQjCCBiqgAwIBAgIQDm0R6qTsIXspQjoXR5Z33TANBgkqhkiG9w0BAQsFADB0MQswCQYDVQQGEwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDEtMCsGA1UECxMkQ2VydGlzaWduIENlcnRpZmljYWRvcmEgRGlnaXRhbCBTLkEuMSEwHwYDVQQDExhBQyBDZXJ0aXNpZ24gTXVsdGlwbGEgRzUwHhcNMTIwODI4MDAwMDAwWhcNMTMwODI3MjM1OTU5WjCB0DELMAkGA1UEBhMCQlIxEzARBgNVBAoUCklDUC1CcmFzaWwxODA2BgNVBAsUL0F1dGVudGljYWRvIHBvciBDZXJ0aXNpZ24gQ2VydGlmaWNhZG9yYSBEaWdpdGFsMRswGQYDVQQLFBJBc3NpbmF0dXJhIFRpcG8gQTExFTATBgNVBAsUDElEIC0gMzU0NDQwMzEWMBQGA1UEAxMNRmFzdCBTaG9wIFMgQTEmMCQGCSqGSIb3DQEJARYXaW5mcmF0aUBmYXN0c2hvcC5jb20uYnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8DuxgkTaOwF4ibXU2Z43Po6bYOfeLwWQxlrv8wNnwgCtXYw8EdIIda+JB3sPhA8QH1ld9XFCw4r+UC1EBppNJVRdAcn9LNUxC6zzka7CLPtDRXw12a+dh2AhSehMGGOs9mTTMo4z3osAheckv4Z1N3doEJgHy9YbJyV52+546KGs3/SjwEelxP04Rb3qtADqXdfRL6R+v6v/DfePWjH/5RQdi8JVJZKhf6qGWfYGLBfjutZc7JSr1CUEiffTNXptrTGkZmvkMJ809LQGvGSIrJ4CpJGmf1DWn0P46Npd90NkTBVvC+c5jZZ9jTLtXBXMb6Yp1Ry9WvzXotumq8f/xAgMBAAGjggNxMIIDbTCBtwYDVR0RBIGvMIGsoDgGBWBMAQMEoC8ELTAyMDMxOTU2MDAxNzk5MjM4OTcwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMKAjBgVgTAEDAqAaBBhNSUxUT04gS0FaVVlVS0kgS0FLVU1PVE+gGQYFYEwBAwOgEAQONDM3MDgzNzkwMDAxMDCgFwYFYEwBAwegDgQMMDAwMDAwMDAwMDAwgRdpbmZyYXRpQGZhc3RzaG9wLmNvbS5icjAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFJ1Qz73/JMqvsTPrF+JCeo5pKo5TMA4GA1UdDwEB/wQEAwIF4DCBiQYDVR0gBIGBMH8wfQYGYEwBAgELMHMwcQYIKwYBBQUHAgEWZWh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vZHBjL0FDX0NlcnRpc2lnbl9NdWx0aXBsYS9EUENfQUNfQ2VydGlTaWduTXVsdGlwbGEucGRmMIIBJQYDVR0fBIIBHDCCARgwXKBaoFiGVmh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMFugWaBXhlVodHRwOi8vaWNwLWJyYXNpbC5vdXRyYWxjci5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMFugWaBXhlVodHRwOi8vcmVwb3NpdG9yaW8uaWNwYnJhc2lsLmdvdi5ici9sY3IvQ2VydGlzaWduL0FDQ2VydGlzaWduTXVsdGlwbGFHNS9MYXRlc3RDUkwuY3JsMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCBoAYIKwYBBQUHAQEEgZMwgZAwZAYIKwYBBQUHMAKGWGh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vY2VydGlmaWNhZG9zL0FDX0NlcnRpc2lnbl9NdWx0aXBsYV9HNS5wN2MwKAYIKwYBBQUHMAGGHGh0dHA6Ly9vY3NwLmNlcnRpc2lnbi5jb20uYnIwDQYJKoZIhvcNAQELBQADggIBACl4Y5pqf5tvgXmcWYuWVMB5CnF8QUzYTMzIr6OcHJthybSjHCwNvKTY1jSeq2rqW/SuagkjuwTNrIGcY+4QYhb+gkc4z0dEtPcwCcrBSOSwYQ0cl5Q07+VD3crCUpoP14wKHJpzE3CW5n2MrK9rz326LD0UaVGV3yUChi5FjvyKW0/FqDmmRacbR1Z0RsZ5/upln8jDmC7lJv4QQh3mFQCzivLlrSuTztPRocwPpGi7a5edCgKhxiYddLPPPuuE70PtFYlSXOCc12GjXuD5cDEsA+kGDXpB2sG4Q1r/KFcnwMz1KdvY70+WaiJ4ygvSRkj+XA72EjPj1bhBwybOG4Fu/uGWOTslpf2p88UjH4Bk4XnFtU/EaP51DEeoW+R84DaTd13Doi5Ba+SN1X27wFG34RfMUEc8GqIamZdAuRgg8wbrhcU2cpEi80paqCWTvIGf9jEt8rWZHgl/gFf+e1Rv4iLnJliVZquSUr/hI324F7Q2tYpQqmhAbZvMn4gTP00FVF2aMQgYtJEJNjH2NkV4ZONCXs7z+7YI9FfHc11KLu/N0KybzfIHSeiS/SUfkqi3yvHW2Oo+VLrX/vbO+c+5BT3IHoWQimeN7LJzi5pkpXVXHFZcEinpECTFH30rL7HY3ndUTHGg/ktHlXUuNoE1jM/y5Wi9X3nOHkRoUKL6</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </Signature>
+    </NFe>
+    <protNFe versao="2.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+        <infProt>
+            <tpAmb>1</tpAmb>
+            <verAplic>5.0</verAplic>
+            <chNFe>35130743708379006485550050005663981000000013</chNFe>
+            <dhRecbto>2013-07-02T17:56:14</dhRecbto>
+            <nProt>135130390612170</nProt>
+            <digVal>s/uixIqU3qCYCsOaUntT3SsED3s=</digVal>
+            <cStat>100</cStat>
+            <xMotivo>Autorizado o uso da NF-e</xMotivo>
+        </infProt>
+    </protNFe>
+</nfeProc>
+
+</notas>

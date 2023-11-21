@@ -1,0 +1,244 @@
+<!ELEMENT nfeProc (NFe, protNFe)>
+<!ATTLIST nfeProc xmlns CDATA #REQUIRED
+                 versao CDATA #REQUIRED>
+
+<!ELEMENT NFe (infNFe, Signature)>
+<!ATTLIST NFe xmlns CDATA #IMPLIED>
+
+<!ELEMENT infNFe (ide, emit, dest, entrega?, det+, total, transp, infAdic?, exporta?, compra?)>
+<!ATTLIST infNFe versao CDATA #REQUIRED
+                 Id CDATA #REQUIRED>
+
+<!ELEMENT ide (cUF, cNF, natOp, indPag, mod, serie, nNF, dEmi, tpNF, cMunFG, tpImp, tpEmis, cDV, tpAmb, finNFe, procEmi, verProc)>
+<!ELEMENT cUF (#PCDATA)>
+<!ELEMENT cNF (#PCDATA)>
+<!ELEMENT natOp (#PCDATA)>
+<!ELEMENT indPag (#PCDATA)>
+<!ELEMENT mod (#PCDATA)>
+<!ELEMENT serie (#PCDATA)>
+<!ELEMENT nNF (#PCDATA)>
+<!ELEMENT dEmi (#PCDATA)>
+<!ELEMENT tpNF (#PCDATA)>
+<!ELEMENT cMunFG (#PCDATA)>
+<!ELEMENT tpImp (#PCDATA)>
+<!ELEMENT tpEmis (#PCDATA)>
+<!ELEMENT cDV (#PCDATA)>
+<!ELEMENT tpAmb (#PCDATA)>
+<!ELEMENT finNFe (#PCDATA)>
+<!ELEMENT procEmi (#PCDATA)>
+<!ELEMENT verProc (#PCDATA)>
+<!ELEMENT dhCont (#PCDATA)>
+<!ELEMENT CRT (#PCDATA)>
+
+<!ELEMENT emit (CNPJ, xNome, xFant, enderEmit, IE, CRT)>
+<!ELEMENT CNPJ (#PCDATA)>
+<!ELEMENT CPF (#PCDATA)>
+<!ELEMENT xNome (#PCDATA)>
+<!ELEMENT xFant (#PCDATA)>
+<!ELEMENT enderEmit (xLgr, nro, xCpl?, xBairro, cMun, xMun, UF, CEP, cPais, xPais, fone?)>
+<!ELEMENT xLgr (#PCDATA)>
+<!ELEMENT nro (#PCDATA)>
+<!ELEMENT xBairro (#PCDATA)>
+<!ELEMENT cMun (#PCDATA)>
+<!ELEMENT xMun (#PCDATA)>
+<!ELEMENT UF (#PCDATA)>
+<!ELEMENT CEP (#PCDATA)>
+<!ELEMENT cPais (#PCDATA)>
+<!ELEMENT xPais (#PCDATA)>
+<!ELEMENT fone (#PCDATA)>
+<!ELEMENT IE (#PCDATA)>
+<!ELEMENT IM (#PCDATA)>
+<!ELEMENT CNAE (#PCDATA)>
+
+<!ELEMENT dest (CNPJ?, CPF?, xNome, enderDest?, IE?, ISUF?, email?)>
+<!ELEMENT enderDest (xLgr, nro, xCpl?, xBairro, cMun, xMun, UF, CEP, cPais, xPais, fone?)>
+<!ELEMENT xCpl (#PCDATA)>
+<!ELEMENT ISUF (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT det (prod, imposto, infAdProd?)>
+<!ATTLIST det nItem CDATA #REQUIRED>
+
+<!ELEMENT entrega (CPF, xLgr, nro, xCpl, xBairro, cMun, xMun, UF)>
+<!ELEMENT ICMS60 (orig, CST, vBCSTRet, vICMSSTRet)>
+<!ELEMENT vBCSTRet (#PCDATA)>
+<!ELEMENT vICMSSTRet (#PCDATA)>
+
+<!ELEMENT prod (cProd, cEAN?, xProd, NCM, CFOP, uCom, qCom, vUnCom, vProd, cEANTrib?, uTrib, qTrib, vUnTrib, vFrete?, indTot)>
+<!ELEMENT cProd (#PCDATA)>
+<!ELEMENT cEAN (#PCDATA)>
+<!ELEMENT xProd (#PCDATA)>
+<!ELEMENT NCM (#PCDATA)>
+<!ELEMENT CFOP (#PCDATA)>
+<!ELEMENT uCom (#PCDATA)>
+<!ELEMENT qCom (#PCDATA)>
+<!ELEMENT vUnCom (#PCDATA)>
+<!ELEMENT vProd (#PCDATA)>
+<!ELEMENT cEANTrib (#PCDATA)>
+<!ELEMENT uTrib (#PCDATA)>
+<!ELEMENT qTrib (#PCDATA)>
+<!ELEMENT indTot (#PCDATA)>
+<!ELEMENT vUnTrib (#PCDATA)>
+<!ELEMENT vFrete (#PCDATA)>
+<!ELEMENT vSeg (#PCDATA)>
+<!ELEMENT vDesc (#PCDATA)>
+<!ELEMENT vII (#PCDATA)>
+<!ELEMENT vIPI (#PCDATA)>
+<!ELEMENT vPIS (#PCDATA)>
+<!ELEMENT vCOFINS (#PCDATA)>
+<!ELEMENT vOutro (#PCDATA)>
+<!ELEMENT vNF (#PCDATA)>
+<!ELEMENT DI (nDI, dDI, xLocDesemb, UFDesemb, dDesemb, tpViaTransp, vAFRMM, tpIntermedio, CNPJ?, UFTerceiro?)>
+<!ELEMENT nDI (#PCDATA)>
+<!ELEMENT dDI (#PCDATA)>
+<!ELEMENT xLocDesemb (#PCDATA)>
+<!ELEMENT UFDesemb (#PCDATA)>
+<!ELEMENT dDesemb (#PCDATA)>
+<!ELEMENT tpViaTransp (#PCDATA)>
+<!ELEMENT vAFRMM (#PCDATA)>
+<!ELEMENT tpIntermedio (#PCDATA)>
+<!ELEMENT UFTerceiro (#PCDATA)>
+<!ELEMENT detExport (nDraw?)>
+<!ELEMENT nDraw (#PCDATA)>
+<!ELEMENT xPed (#PCDATA)>
+<!ELEMENT nItemPed (#PCDATA)>
+
+<!ELEMENT imposto (ICMS, IPI?, PIS?, COFINS?)>
+<!ELEMENT ICMS (ICMS00 | ICMS60)>
+<!ELEMENT ICMS00 (orig, CST, modBC, vBC, pICMS, vICMS, vBCFCP?, pFCP?, vFCP?)>
+<!ELEMENT orig (#PCDATA)>
+<!ELEMENT modBC (#PCDATA)>
+<!ELEMENT vBC (#PCDATA)>
+<!ELEMENT pICMS (#PCDATA)>
+<!ELEMENT vICMS (#PCDATA)>
+<!ELEMENT vBCFCP (#PCDATA)>
+<!ELEMENT pFCP (#PCDATA)>
+<!ELEMENT vFCP (#PCDATA)>
+
+<!ELEMENT PISNT (CST)>
+
+<!ELEMENT IPI (cEnq, IPINT)>
+<!ELEMENT cEnq (#PCDATA)>
+<!ELEMENT IPINT (CST)>
+<!ELEMENT IPITrib (CST, vBC, pIPI, vIPI)>
+<!ELEMENT CST (#PCDATA)>
+<!ELEMENT pIPI (#PCDATA)>
+
+<!ELEMENT PIS (PISAliq | PISNT)>
+<!ELEMENT PISAliq (CST, vBC, pPIS, vPIS)>
+<!ELEMENT pPIS (#PCDATA)>
+<!ELEMENT vST (#PCDATA)>
+
+<!ELEMENT COFINSNT (CST)>
+
+<!ELEMENT COFINS (COFINSAliq | COFINSNT)>
+<!ELEMENT COFINSAliq (CST, vBC, pCOFINS, vCOFINS)>
+<!ELEMENT pCOFINS (#PCDATA)>
+
+<!ELEMENT infAdProd (#PCDATA)>
+
+<!ELEMENT infAdFisco (#PCDATA)>
+<!ELEMENT infCpl (#PCDATA)>
+
+<!ELEMENT total (ICMSTot)>
+<!ELEMENT ICMSTot (vBC, vICMS, vBCST, vST, vProd, vFrete, vSeg, vDesc, vII, vIPI, vPIS, vCOFINS, vOutro, vNF)>
+<!ELEMENT vICMSDeson (#PCDATA)>
+<!ELEMENT vFCPUFDest (#PCDATA)>
+<!ELEMENT vICMSUFDest (#PCDATA)>
+<!ELEMENT vICMSUFRemet (#PCDATA)>
+<!ELEMENT vBCST (#PCDATA)>
+<!ELEMENT vFCPST (#PCDATA)>
+
+<!ELEMENT transp (modFrete, transporta?, vol)>
+<!ELEMENT modFrete (#PCDATA)>
+
+<!ELEMENT transporta (CNPJ?, xNome, IE, xEnder?, xMun?, UF?)>
+<!ELEMENT vol (qVol, esp?, pesoL, pesoB)>
+<!ELEMENT qVol (#PCDATA)>
+<!ELEMENT xEnder (#PCDATA)>
+<!ELEMENT esp (#PCDATA)>
+<!ELEMENT pesoL (#PCDATA)>
+<!ELEMENT pesoB (#PCDATA)>
+
+<!ELEMENT pag (detPag+)>
+<!ELEMENT detPag (indPag, tPag, vPag, card?)>
+<!ELEMENT tPag (#PCDATA)>
+<!ELEMENT vPag (#PCDATA)>
+<!ELEMENT card (CNPJ, tBand, cAut)>
+
+<!ELEMENT infAdic (infAdFisco?, infCpl?, obsCont?, obsFisco?)>
+<!ELEMENT obsCont (xCampo, xTexto)>
+<!ELEMENT xCampo (#PCDATA)>
+<!ELEMENT xTexto (#PCDATA)>
+<!ELEMENT obsFisco (xCampo, xTexto)>
+<!ELEMENT compra (xNEmp, xPed, xCont)>
+<!ELEMENT xNEmp (#PCDATA)>
+<!ELEMENT xCont (#PCDATA)>
+
+<!ELEMENT exporta (UFEmbarq, xLocEmbarq, xLocDespacho)>
+<!ELEMENT UFEmbarq (#PCDATA)>
+<!ELEMENT xLocEmbarq (#PCDATA)>
+<!ELEMENT xLocDespacho (#PCDATA)>
+
+<!ELEMENT autXML (CNPJ, xNome)>
+
+<!ELEMENT retTrib (vRetPIS?, vRetCOFINS?, vRetCSLL?, vBCIRRF?, vIRRF?, vBCRetPrev?, vRetPrev?)>
+<!ELEMENT vRetPIS (#PCDATA)>
+<!ELEMENT vRetCOFINS (#PCDATA)>
+<!ELEMENT vRetCSLL (#PCDATA)>
+<!ELEMENT vBCIRRF (#PCDATA)>
+<!ELEMENT vIRRF (#PCDATA)>
+<!ELEMENT vBCRetPrev (#PCDATA)>
+<!ELEMENT vRetPrev (#PCDATA)>
+
+<!ELEMENT xOrig (xRegistro)>
+<!ELEMENT xRegistro (#PCDATA)>
+<!ELEMENT NFref (refNFe?)>
+<!ELEMENT refNFe (#PCDATA)>
+<!ELEMENT arquivos (arquivo?)>
+<!ELEMENT arquivo (#PCDATA)>
+<!ELEMENT infMunDescarga (cMunDescarga, xMunDescarga)>
+<!ELEMENT cMunDescarga (#PCDATA)>
+<!ELEMENT xMunDescarga (#PCDATA)>
+<!ELEMENT retirada (CNPJ, CPF, xLgr, nro, xCpl, xBairro, cMun, xMun, UF)>
+
+<!ELEMENT infNFeSupl (qrCode, urlChave)>
+<!ELEMENT qrCode (#PCDATA)>
+<!ELEMENT urlChave (#PCDATA)>
+
+<!ELEMENT protNFe (infProt)>
+<!ATTLIST protNFe 
+    versao CDATA #REQUIRED
+    xmlns CDATA #REQUIRED
+>
+<!ELEMENT infProt (tpAmb, verAplic, chNFe, dhRecbto, nProt, digVal, cStat, xMotivo)>
+<!ELEMENT verAplic (#PCDATA)>
+<!ELEMENT chNFe (#PCDATA)>
+<!ELEMENT dhRecbto (#PCDATA)>
+<!ELEMENT nProt (#PCDATA)>
+<!ELEMENT digVal (#PCDATA)>
+<!ELEMENT cStat (#PCDATA)>
+<!ELEMENT xMotivo (#PCDATA)>
+
+<!ELEMENT Signature (SignedInfo, SignatureValue, KeyInfo, Object?)>
+<!ATTLIST Signature 
+    xmlns CDATA #IMPLIED
+>
+<!ELEMENT SignedInfo (CanonicalizationMethod, SignatureMethod, Reference+)>
+<!ELEMENT CanonicalizationMethod (#PCDATA)>
+<!ATTLIST CanonicalizationMethod Algorithm CDATA #REQUIRED>
+<!ELEMENT SignatureMethod (#PCDATA)>
+<!ATTLIST SignatureMethod Algorithm CDATA #REQUIRED>
+<!ELEMENT HMACOutputLength (#PCDATA)>
+<!ELEMENT Reference (Transforms?, DigestMethod, DigestValue, URI?)>
+<!ATTLIST Reference URI CDATA #IMPLIED>
+<!ELEMENT Transforms (Transform+)>
+<!ELEMENT Transform (#PCDATA)>
+<!ATTLIST Transform Algorithm CDATA #REQUIRED>
+<!ELEMENT DigestMethod (#PCDATA)>
+<!ATTLIST DigestMethod Algorithm CDATA #REQUIRED>
+<!ELEMENT DigestValue (#PCDATA)>
+<!ELEMENT SignatureValue (#PCDATA)>
+<!ELEMENT KeyInfo (X509Data?)>
+<!ELEMENT X509Data (X509Certificate)>
+<!ELEMENT X509Certificate (#PCDATA)>

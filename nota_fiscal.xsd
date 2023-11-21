@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.portalfiscal.inf.br/nfe"
+            xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+            xmlns="http://www.portalfiscal.inf.br/nfe"
+            elementFormDefault="qualified">
+
+    <xsd:element name="nfeProc">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="NFe" type="NFeType"/>
+                <xsd:element name="protNFe" type="protNFeType"/>
+            </xsd:sequence>
+            <xsd:attribute name="versao" type="xsd:string" use="required"/>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:complexType name="NFeType">
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="infNFe" type="infNFeType"/>
+            <xsd:element name="Signature" type="SignatureType"/>
+        </xsd:choice>
+        <xsd:attribute name="versao" type="xsd:string"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="infNFeType">
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="ide" type="ideType"/>
+            <xsd:element name="emit" type="emitType"/>
+            <xsd:element name="dest" type="destType"/>
+            <xsd:element name="entrega" type="entregaType"/>
+            <xsd:element name="det" type="detType" maxOccurs="unbounded"/>
+            <xsd:element name="total" type="totalType"/>
+            <xsd:element name="transp" type="transpType"/>
+            <xsd:element name="infAdic" type="infAdicType"/>
+        </xsd:choice>
+        <xsd:attribute name="Id" type="xsd:string" use="required"/>
+        <xsd:attribute name="versao" type="xsd:string" use="required"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="SignatureType">
+        <xsd:sequence maxOccurs="unbounded">
+            <xsd:choice>
+                <xsd:element name="SignedInfo" type="SignedInfoType" />
+                <xsd:element name="SignatureValue" type="xsd:string" />
+                <xsd:element name="KeyInfo" type="KeyInfoType" />
+            </xsd:choice>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="SignedInfoType">
+        <xsd:sequence>
+            <xsd:element name="CanonicalizationMethod" type="Algorithm"/>
+            <xsd:element name="SignatureMethod" type="Algorithm"/>
+            <xsd:element name="Reference" type="ReferenceType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="Algorithm">
+        <xsd:attribute name="Algorithm" type="xsd:string" use="required"/>
+    </xsd:complexType>
+    <xsd:complexType name="ReferenceType">
+        <xsd:sequence>
+            <xsd:element name="Transforms" type="TransformsType"/>
+            <xsd:element name="DigestMethod" type="Algorithm"/>
+            <xsd:element name="DigestValue" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="URI" type="xsd:string" use="required"/>
+    </xsd:complexType>
+    <xsd:complexType name="TransformsType">
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="Transform" type="Algorithm"/>
+        </xsd:choice>
+    </xsd:complexType>
+    <xsd:complexType name="KeyInfoType">
+        <xsd:sequence>
+            <xsd:element name="X509Data" type="X509DataType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="X509DataType">
+        <xsd:sequence>
+            <xsd:element name="X509Certificate" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="ideType">
+        <xsd:sequence>
+            <xsd:element name="cUF" type="xsd:string"/>
+            <xsd:element name="cNF" type="xsd:string"/>
+            <xsd:element name="natOp" type="xsd:string"/>
+            <xsd:element name="indPag" type="xsd:string"/>
+            <xsd:element name="mod" type="xsd:string"/>
+            <xsd:element name="serie" type="xsd:string"/>
+            <xsd:element name="nNF" type="xsd:string"/>
+            <xsd:element name="dEmi" type="xsd:string"/>
+            <xsd:element name="tpNF" type="xsd:string"/>
+            <xsd:element name="cMunFG" type="xsd:string"/>
+            <xsd:element name="tpImp" type="xsd:string"/>
+            <xsd:element name="tpEmis" type="xsd:string"/>
+            <xsd:element name="cDV" type="xsd:string"/>
+            <xsd:element name="tpAmb" type="xsd:string"/>
+            <xsd:element name="finNFe" type="xsd:string"/>
+            <xsd:element name="procEmi" type="xsd:string"/>
+            <xsd:element name="verProc" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="emitType">
+        <xsd:sequence>
+            <xsd:element name="CNPJ" type="xsd:string"/>
+            <xsd:element name="xNome" type="xsd:string"/>
+            <xsd:element name="xFant" type="xsd:string"/>
+            <xsd:element name="enderEmit" type="enderEmitType"/>
+            <xsd:element name="IE" type="xsd:string"/>
+            <xsd:element name="CRT" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="enderEmitType">
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="xLgr" type="xsd:string"/>
+            <xsd:element name="nro" type="xsd:string"/>
+            <xsd:element name="fone" type="xsd:string"/>
+            <xsd:element name="xCpl" type="xsd:string"/>
+            <xsd:element name="xBairro" type="xsd:string"/>
+            <xsd:element name="cMun" type="xsd:string"/>
+            <xsd:element name="xMun" type="xsd:string"/>
+            <xsd:element name="UF" type="xsd:string"/>
+            <xsd:element name="CEP" type="xsd:string"/>
+            <xsd:element name="cPais" type="xsd:string"/>
+            <xsd:element name="xPais" type="xsd:string"/>
+        </xsd:choice>
+    </xsd:complexType>
+    <xsd:complexType name="destType">
+        <xsd:sequence>
+            <xsd:element name="CPF" type="xsd:string"/>
+            <xsd:element name="xNome" type="xsd:string"/>
+            <xsd:element name="enderDest" type="enderDestType"/>
+            <xsd:element name="IE" type="xsd:string"/>
+            <xsd:element name="email" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="enderDestType">
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="xLgr" type="xsd:string"/>
+            <xsd:element name="nro" type="xsd:string"/>
+            <xsd:element name="xCpl" type="xsd:string"/>
+            <xsd:element name="xBairro" type="xsd:string"/>
+            <xsd:element name="cMun" type="xsd:string"/>
+            <xsd:element name="xMun" type="xsd:string"/>
+            <xsd:element name="UF" type="xsd:string"/>
+            <xsd:element name="CEP" type="xsd:string"/>
+            <xsd:element name="cPais" type="xsd:string"/>
+            <xsd:element name="xPais" type="xsd:string"/>
+            <xsd:element name="fone" type="xsd:string"/>
+        </xsd:choice>
+    </xsd:complexType>
+    <xsd:complexType name="entregaType">
+        <xsd:sequence>
+            <xsd:element name="CPF" type="xsd:string"/>
+            <xsd:element name="xLgr" type="xsd:string"/>
+            <xsd:element name="nro" type="xsd:string"/>
+            <xsd:element name="xCpl" type="xsd:string"/>
+            <xsd:element name="xBairro" type="xsd:string"/>
+            <xsd:element name="cMun" type="xsd:string"/>
+            <xsd:element name="xMun" type="xsd:string"/>
+            <xsd:element name="UF" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="detType">
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="prod" type="prodType"/>
+            <xsd:element name="imposto" type="impostoType"/>
+            <xsd:element name="infAdProd" type="xsd:string"/>
+        </xsd:choice>
+        <xsd:attribute name="nItem" type="xsd:string" use="required"/>
+    </xsd:complexType>
+    <xsd:complexType name="prodType">
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="cProd" type="xsd:string"/>
+            <xsd:element name="cEAN" type="xsd:string"/>
+            <xsd:element name="xProd" type="xsd:string"/>
+            <xsd:element name="NCM" type="xsd:string"/>
+            <xsd:element name="CFOP" type="xsd:string"/>
+            <xsd:element name="uCom" type="xsd:string"/>
+            <xsd:element name="qCom" type="xsd:string"/>
+            <xsd:element name="vUnCom" type="xsd:string"/>
+            <xsd:element name="vProd" type="xsd:string"/>
+            <xsd:element name="cEANTrib" type="xsd:string"/>
+            <xsd:element name="uTrib" type="xsd:string"/>
+            <xsd:element name="qTrib" type="xsd:string"/>
+            <xsd:element name="vUnTrib" type="xsd:string"/>
+            <xsd:element name="vFrete" type="xsd:string"/>
+            <xsd:element name="indTot" type="xsd:string"/>
+        </xsd:choice>
+    </xsd:complexType>
+    <xsd:complexType name="impostoType">
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="ICMS" type="ICMSType"/>
+            <xsd:element name="IPI" type="IPIType"/>
+            <xsd:element name="PIS" type="PISType"/>
+            <xsd:element name="COFINS" type="COFINSType"/>
+        </xsd:choice>
+    </xsd:complexType>
+    <xsd:complexType name="ICMSType">
+        <xsd:choice>
+            <xsd:element name="ICMS00" type="ICMS00Type"/>
+            <xsd:element name="ICMS60" type="ICMS60Type"/>
+        </xsd:choice>
+    </xsd:complexType>
+    <xsd:complexType name="ICMS00Type">
+        <xsd:sequence>
+            <xsd:element name="orig" type="xsd:string"/>
+            <xsd:element name="CST" type="xsd:string"/>
+            <xsd:element name="modBC" type="xsd:string"/>
+            <xsd:element name="vBC" type="xsd:string"/>
+            <xsd:element name="pICMS" type="xsd:string"/>
+            <xsd:element name="vICMS" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="IPIType">
+        <xsd:sequence>
+            <xsd:element name="cEnq" type="xsd:string"/>
+            <xsd:element name="IPINT" type="IPINTType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="IPINTType">
+        <xsd:sequence>
+            <xsd:element name="CST" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="PISType">
+        <xsd:choice>
+            <xsd:element name="PISAliq" type="PISALiqType"/>
+            <xsd:element name="PISNT" type="CST"/>
+        </xsd:choice>
+    </xsd:complexType>
+    <xsd:complexType name="PISALiqType">
+        <xsd:sequence>
+            <xsd:element name="CST" type="xsd:string"/>
+            <xsd:element name="vBC" type="xsd:string"/>
+            <xsd:element name="pPIS" type="xsd:string"/>
+            <xsd:element name="vPIS" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="COFINSType">
+        <xsd:choice>
+            <xsd:element name="COFINSAliq" type="COFINSAliqType"/>
+            <xsd:element name="COFINSNT" type="CST"/>
+        </xsd:choice>
+    </xsd:complexType>
+    <xsd:complexType name="COFINSAliqType">
+        <xsd:sequence>
+            <xsd:element name="CST" type="xsd:string"/>
+            <xsd:element name="vBC" type="xsd:string"/>
+            <xsd:element name="pCOFINS" type="xsd:string"/>
+            <xsd:element name="vCOFINS" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="totalType">
+        <xsd:sequence>
+            <xsd:element name="ICMSTot" type="ICMSTotType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="ICMSTotType">
+        <xsd:sequence>
+            <xsd:element name="vBC" type="xsd:float"/>
+            <xsd:element name="vICMS" type="xsd:float"/>
+            <xsd:element name="vBCST" type="xsd:float"/>
+            <xsd:element name="vST" type="xsd:float"/>
+            <xsd:element name="vProd" type="xsd:float"/>
+            <xsd:element name="vFrete" type="xsd:float"/>
+            <xsd:element name="vSeg" type="xsd:float"/>
+            <xsd:element name="vDesc" type="xsd:float"/>
+            <xsd:element name="vII" type="xsd:float"/>
+            <xsd:element name="vIPI" type="xsd:float"/>
+            <xsd:element name="vPIS" type="xsd:float"/>
+            <xsd:element name="vCOFINS" type="xsd:float"/>
+            <xsd:element name="vOutro" type="xsd:float"/>
+            <xsd:element name="vNF" type="xsd:float"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="ICMS60Type">
+        <xsd:sequence>
+            <xsd:element name="orig" type="xsd:string"/>
+            <xsd:element name="CST" type="xsd:string"/>
+            <xsd:element name="vBCSTRet" type="xsd:string"/>
+            <xsd:element name="vICMSSTRet" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="CST">
+        <xsd:sequence>
+            <xsd:element name="CST" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="transpType">
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="modFrete" type="xsd:string"/>
+            <xsd:element name="transporta" type="transportaType"/>
+            <xsd:element name="vol" type="volType"/>
+        </xsd:choice>
+    </xsd:complexType>
+    <xsd:complexType name="transportaType">
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="CNPJ" type="xsd:string"/>
+            <xsd:element name="xEnder" type="xsd:string"/>
+            <xsd:element name="xMun" type="xsd:string"/>
+            <xsd:element name="UF" type="xsd:string"/>
+            <xsd:element name="xNome" type="xsd:string"/>
+            <xsd:element name="IE" type="xsd:string"/>
+        </xsd:choice>
+    </xsd:complexType>
+    <xsd:complexType name="volType">
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="qVol" type="xsd:string"/>
+            <xsd:element name="esp" type="xsd:string"/>
+            <xsd:element name="pesoL" type="xsd:string"/>
+            <xsd:element name="pesoB" type="xsd:string"/>
+        </xsd:choice>
+    </xsd:complexType>
+    <xsd:complexType name="infAdicType">
+        <xsd:sequence>
+            <xsd:element name="infCpl" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:complexType name="protNFeType">
+        <xsd:sequence>
+            <xsd:element name="infProt" type="infProtType"/>
+        </xsd:sequence>
+        <xsd:attribute name="versao" type="xsd:string" use="required"/>
+    </xsd:complexType>
+    <xsd:complexType name="infProtType">
+        <xsd:sequence>
+            <xsd:element name="tpAmb" type="xsd:string"/>
+            <xsd:element name="verAplic" type="xsd:string"/>
+            <xsd:element name="chNFe" type="xsd:string"/>
+            <xsd:element name="dhRecbto" type="xsd:string"/>
+            <xsd:element name="nProt" type="xsd:string"/>
+            <xsd:element name="digVal" type="xsd:string"/>
+            <xsd:element name="cStat" type="xsd:string"/>
+            <xsd:element name="xMotivo" type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>
+
